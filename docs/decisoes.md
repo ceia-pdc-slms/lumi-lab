@@ -17,3 +17,5 @@ Manter as trilhas separadas. Nesta entrega, decisão sobre ferramentas avalia ch
 Preparar somente estrutura, guias, marcos e tarefas. Não escolher stack de treinamento, não inventar resultados, não criar artefatos no Hugging Face nem publicar a página do hub como parte desta preparação.
 
 A distribuição individual de tarefas será combinada nas issues. O repo mantém o acesso de escrita do time `pdc-membros`, como na fase 1. Os seis integrantes deste grupo são colaboradores diretos na fase 1 e receberam convites individuais de escrita no Lumi Lab; precisam aceitar o convite para ativar o acesso. Lucca coordena a integração.
+
+Até esse aceite, o `CODEOWNERS` mantém Lucca como responsável ativo. As sugestões por componente ficam comentadas para não registrar usuários ainda sem permissão efetiva como revisores automáticos.

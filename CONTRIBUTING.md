@@ -44,7 +44,7 @@ Use notebooks como demonstrações do pipeline compartilhado, com saídas execut
 
 Solicite revisão de pelo menos uma pessoa da frente correspondente. Mudanças no contrato e em critérios de avaliação também precisam de alguém da outra frente. Lucca coordena a integração e o fechamento dos marcos.
 
-`CODEOWNERS` sugere revisores por componente. A existência do arquivo, sozinha, não substitui revisão nem garante proteção de branch. Se a implementação mudar após uma aprovação, peça nova revisão do trecho alterado.
+`CODEOWNERS` solicita revisão da coordenação. As sugestões por componente estão comentadas até os integrantes aceitarem seus convites e terem acesso de escrita confirmado. A existência do arquivo, sozinha, não substitui revisão nem garante proteção de branch. Se a implementação mudar após uma aprovação, peça nova revisão do trecho alterado.
 
 ## Regras de avaliação
 

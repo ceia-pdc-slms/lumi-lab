@@ -58,7 +58,7 @@ Expected: todas as tarefas abertas estão em um marco correto e apontam para dep
 **Interfaces:** Consome os arquivos e as tarefas; produz commit inicial publicado e acesso do time.
 
 - [x] Realizar revisão independente do conjunto e corrigir achados relevantes.
-- [ ] Publicar o commit inicial e conceder escrita ao time existente da fase 1.
-- [ ] Conferir visibilidade, branch, arquivos, marcos, tarefas e acesso remotos.
+- [x] Publicar o commit inicial e conceder escrita ao time existente da fase 1; convites individuais enviados aos seis integrantes que não pertencem a esse time.
+- [x] Conferir visibilidade, branch, arquivos, marcos, tarefas e acesso remotos; aceite dos convites depende dos destinatários.
 
 Expected: `ceia-pdc-slms/lumi-lab` público e utilizável pelos dois times; pesquisa permanece aberta.
