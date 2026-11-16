@@ -1,0 +1,41 @@
+name: Tarefa do Lumi Lab
+description: Uma entrega verificável de benchmark, adaptação ou integração.
+title: "[Frente] Descrever a entrega"
+labels: [triagem]
+body:
+  - type: dropdown
+    id: frente
+    attributes:
+      label: Frente
+      options:
+        - Dados e benchmark
+        - Adaptação e fine-tuning
+        - Integração
+        - Publicação
+    validations:
+      required: true
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo e artefatos
+      description: O que será entregue, em quais arquivos e por quem.
+    validations:
+      required: true
+  - type: textarea
+    id: aceite
+    attributes:
+      label: Critérios de aceite
+      description: Use uma lista de itens verificáveis.
+      placeholder: "- [ ] Outra pessoa consegue reproduzir a entrega com as instruções."
+    validations:
+      required: true
+  - type: textarea
+    id: dependencias
+    attributes:
+      label: Dependências e revisão
+      description: Issues necessárias, responsável individual e revisor combinado.
+  - type: textarea
+    id: verificacao
+    attributes:
+      label: Como verificar
+      description: Comandos, dados de desenvolvimento e evidência esperada.

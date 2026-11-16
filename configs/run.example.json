@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1",
+  "example_only": true,
+  "run_id": "exemplo-nao-executado",
+  "executed_at": null,
+  "responsible": null,
+  "code": {"commit": null, "dirty": null},
+  "model": {"id": null, "revision": null, "base_revision": null, "adapter_revision": null, "tokenizer_revision": null},
+  "dataset": {"id": null, "revision": null, "split": null, "sample_ids": []},
+  "evaluation": {"contract_revision": null, "scoring_revision": null, "supported_tasks": []},
+  "inference": {"prompt_config": null, "seed": null, "parameters": {}, "context_size": null},
+  "environment": {"hardware": null, "system": null, "runtime": null, "dependencies": null, "precision": null, "quantization": null},
+  "measurement": {"latency_method": null, "memory_method": null, "token_count_method": null},
+  "artifacts": {"raw_predictions": null, "normalized_predictions": null, "metrics": null, "logs": null}
+}
