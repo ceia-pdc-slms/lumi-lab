@@ -63,6 +63,7 @@ def configuration(path):
         "dummy": set(),
         "openai_compat": {"base_url", "model", "api_key_env", "timeout"},
         "choice_logits": {"executable", "weights", "template", "context_size"},
+        "choice_logits_http": {"endpoint"},
     }
     if kind not in allowed or set(backend) - {"type"} - allowed[kind]:
         raise ValueError("Backend ou opções desconhecidas")
@@ -95,8 +96,13 @@ def configuration(path):
         context_size = backend.get("context_size")
         if type(context_size) is not int or not 4 <= context_size <= 32768:
             raise ValueError("Contexto de choice_logits deve estar entre 4 e 32768")
-        if config.get("prompt_variant", "direct") != "direct":
-            raise ValueError("choice_logits usa o prompt direct")
+    if kind == "choice_logits_http":
+        from adapters.choice_service import port_for
+        port_for(backend.get("endpoint", ""))
+        if not re.fullmatch(r"[a-f0-9]{64}", str(model.get("chat_template_sha256", ""))):
+            raise ValueError("Fixe model.chat_template_sha256 com o SHA-256 do template")
+    if kind in {"choice_logits", "choice_logits_http"} and config.get("prompt_variant", "direct") != "direct":
+        raise ValueError("Os backends de logits usam o prompt direct")
     if config.get("adapter", "default") not in outputs.ADAPTERS:
         raise ValueError("Adaptador desconhecido")
     if config.get("prompt_variant", "direct") not in {"direct", "cot"}:
@@ -152,7 +158,7 @@ def predict(backend, track, example, variant, adapter, generation):
                "reasoning_output": response.get("reasoning_output"), "finish_reason": response.get("finish_reason"),
                "latency_s": response.get("latency_s"), "n_gen_tokens": response.get("n_gen_tokens"),
                "error": None}
-        for key in ("choice_logits", "choice_token_ids", "prompt_tokens"):
+        for key in ("choice_logits", "choice_token_ids", "prompt_tokens", "server_latency_s"):
             if key in response:
                 row[key] = response[key]
         json.dumps(row, allow_nan=False)
@@ -173,14 +179,17 @@ def execute(config_path, output, *, suite="lumibench", directory=data.DEFAULT_DA
     config, raw_config, generation = configuration(config_path)
     bundle = load_suite(suite, directory)
     selected, sources = select(bundle, split, datasets, limit)
-    native_choices = config["backend"]["type"] == "choice_logits"
-    if native_choices and "decisao" in selected:
-        raise ValueError("choice_logits requer selecionar somente bases de múltipla escolha")
+    backend_type = config["backend"]["type"]
+    if backend_type in {"choice_logits", "choice_logits_http"} and "decisao" in selected:
+        raise ValueError("Os backends de logits requerem bases de múltipla escolha")
     with new_directory(output) as stage, ExitStack() as resources:
-        if native_choices:
+        if backend_type == "choice_logits":
             from adapters.choice_logits import ChoiceLogitsBackend
             backend = ChoiceLogitsBackend(config["backend"], config["model"])
             resources.callback(backend.close)
+        elif backend_type == "choice_logits_http":
+            from adapters.choice_service import ChoiceEndpointBackend
+            backend = ChoiceEndpointBackend(config["backend"]["endpoint"], config["model"])
         else:
             backend = backends.make_backend(config["backend"])
         adapter, variant = config.get("adapter", "default"), config.get("prompt_variant", "direct")

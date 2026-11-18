@@ -46,3 +46,22 @@ O backend Python usa Jinja2 para renderizar o template. Para repetir as condiç�
   "prompt_variant": "direct"
 }
 ```
+
+## Endpoint residente
+
+Inicie o servidor com o perfil local `choice_logits`. Ele confere os arquivos e carrega o GGUF uma vez, antes de aceitar requisições.
+
+```bash
+python3 -m adapters.choice_service --config results/local/comparacao-passada-config.json --port 11440
+curl -fsS http://127.0.0.1:11440/health
+```
+
+O serviço escuta em `127.0.0.1` e processa um item por vez. `GET /health` identifica o modelo e a instância carregada. `POST /predict` recebe `messages` com um turno `user` e `choice_letters` com as alternativas válidas. O endpoint devolve a letra, os logits e o tempo de execução no servidor.
+
+Para usá-lo pelo benchmark, copie o perfil para um novo arquivo e substitua somente o objeto `backend` pelo seguinte.
+
+```json
+{"type":"choice_logits_http","endpoint":"http://127.0.0.1:11440"}
+```
+
+O cliente confere os hashes de pesos, tokenizer e template na abertura da execução. O manifesto registra a instância do servidor. As predições registram a latência HTTP observada pelo cliente e `server_latency_s` para a passada no processo residente. O modelo permanece em memória entre itens e entre execuções do benchmark. Encerre com Ctrl+C se o servidor estiver em primeiro plano, ou envie SIGTERM ao PID do servidor em segundo plano.

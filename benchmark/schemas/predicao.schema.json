@@ -81,6 +81,11 @@
     "prompt_tokens": {
       "type": "integer",
       "minimum": 1
+    },
+    "server_latency_s": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Tempo da passada no processo residente, antes do transporte HTTP"
     }
   }
 }

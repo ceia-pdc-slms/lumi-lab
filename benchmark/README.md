@@ -64,3 +64,5 @@ python3 -m benchmark run --split dev --config /caminho/para/o/perfil.json \
   --dataset oab_exams --dataset drbodebench_inep --dataset bluex --dataset math_pt \
   --limit-per-dataset 3 --out results/local/perfil-dev
 ```
+
+Para reutilizar o modelo entre execuções, inicie o [endpoint residente](../adapters/native/README.md#endpoint-residente) e use o backend `choice_logits_http` no perfil do benchmark.
