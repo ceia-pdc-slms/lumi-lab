@@ -24,9 +24,14 @@ class OpenAICompatBackend:
         self.timeout = timeout
         self.key = os.environ.get(api_key_env)
 
-    def generate(self, messages, *, max_new_tokens, temperature, seed, choice_letters=None):
-        body = {"model": self.model, "messages": messages, "max_tokens": max_new_tokens,
+    def request_body(self, messages, *, max_new_tokens, temperature, seed):
+        return {"model": self.model, "messages": messages, "max_tokens": max_new_tokens,
                 "temperature": temperature, "seed": seed}
+
+    def generate(self, messages, *, max_new_tokens, temperature, seed, choice_letters=None):
+        body = self.request_body(
+            messages, max_new_tokens=max_new_tokens, temperature=temperature, seed=seed,
+        )
         headers = {"Content-Type": "application/json"}
         if self.key:
             headers["Authorization"] = f"Bearer {self.key}"

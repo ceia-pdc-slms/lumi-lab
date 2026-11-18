@@ -133,3 +133,19 @@ class IntegrationTests(unittest.TestCase):
         row["provenance"] = {"source": "test/origem", "source_version": "v1", "license": "CC0-1.0",
                              "language_origin": "sintetico", "transformations": []}
         validate_row(row, "conhecimento", ("train",))
+
+    def test_contract_probe_selects_first_eligible_dev_case_per_shape(self):
+        from benchmark.contract_check import select_cases
+
+        def row(id_, task, n, split="dev"):
+            return {"id": id_, "task": task, "split": split, "gold_calls": [{}] * n}
+
+        rows = [
+            row("01", "tool_selection", 1, "test"),
+            row("03", "tool_selection", 1),
+            row("02", "tool_selection", 1),
+            row("04", "irrelevance", 0),
+            row("05", "parallel_calls", 3),
+            row("06", "parallel_calls", 2),
+        ]
+        self.assertEqual([item["id"] for item in select_cases(rows)], ["02", "04", "06"])
