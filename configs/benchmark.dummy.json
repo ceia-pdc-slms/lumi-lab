@@ -1,0 +1,6 @@
+{
+  "backend": {"type": "dummy"},
+  "adapter": "default",
+  "prompt_variant": "direct",
+  "generation": {"max_new_tokens": 512, "temperature": 0.0, "seed": 42}
+}

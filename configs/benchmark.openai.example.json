@@ -1,0 +1,19 @@
+{
+  "backend": {
+    "type": "openai_compat",
+    "base_url": "http://127.0.0.1:8000/v1",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "api_key_env": "LUMI_BENCHMARK_API_KEY",
+    "timeout": 120
+  },
+  "model": {
+    "revision": "PREENCHER_COMMIT_OU_SHA256",
+    "tokenizer_revision": "PREENCHER_COMMIT_OU_SHA256",
+    "quantization": "PREENCHER",
+    "runtime": "PREENCHER_VERSAO_DO_SERVIDOR",
+    "hardware": "PREENCHER_HARDWARE_DO_SERVIDOR"
+  },
+  "adapter": "default",
+  "prompt_variant": "direct",
+  "generation": {"max_new_tokens": 512, "temperature": 0.0, "seed": 42}
+}

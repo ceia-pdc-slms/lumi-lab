@@ -1,6 +1,6 @@
 # Contrato comum de avaliação
 
-**Estado: proposta de campos para fechamento pelos dois times.** O contrato ainda precisa ser aprovado na tarefa de integração. Este documento não é uma especificação de schema já implementada.
+**Estado da revisão pelas duas frentes.** A implementação candidata do LumiBench está descrita no [guia de execução e pontuação](../benchmark/README.md). Os [schemas](../benchmark/schemas/) documentam seus arquivos JSONL. A aprovação formal do contrato continua na tarefa de integração.
 
 ## Entrada de cada exemplo
 

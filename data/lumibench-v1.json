@@ -1,0 +1,80 @@
+{
+  "version": "lumibench-v1",
+  "repository": "https://github.com/henriqueelj/Lumi-Benchmark",
+  "commit": "09fbaed9bfb3c82e3e3d47a70051dbaddaa73c1f",
+  "selection_seed": 0,
+  "datasets": {
+    "oab_exams": {
+      "file": "oab_exams.jsonl",
+      "track": "conhecimento",
+      "sector": "direito",
+      "source": "eduagarcia/oab_exams",
+      "source_revision": "fe810531d30e7799dd83c2e5be302ca2f2bdf930",
+      "split_counts": {
+        "dev": 64,
+        "test": 136
+      },
+      "sha256": "fcd5827a852dca3ad48d54c56b27e1eb136fb5110cb3ba1a9ca423a3a0e533cc",
+      "sha256_upstream_crlf": "06c000718cff284f73052bfbcc3aef121224f10709d5b5a28617adcd24a9965b"
+    },
+    "drbodebench_inep": {
+      "file": "drbodebench_inep.jsonl",
+      "track": "conhecimento",
+      "sector": "saude",
+      "source": "recogna-nlp/drbodebench",
+      "source_revision": "89155f7570d7e02682945a57389a8eb8cfb8063a",
+      "split_counts": {
+        "dev": 64,
+        "test": 136
+      },
+      "sha256": "2651a4f57921baa7a1cec1c6efe32422a1ba83f1de435815a0b087e3678b24dc",
+      "sha256_upstream_crlf": "3ed438001ca7291b4258ff4d5cc41798001721bc213c1fb53b58eedc27f67fa4"
+    },
+    "bluex": {
+      "file": "bluex.jsonl",
+      "track": "conhecimento",
+      "sector": "geral",
+      "source": "portuguese-benchmark-datasets/BLUEX",
+      "source_revision": "cb5d60a88a4fd9f20ad4c3ea55085c7155396836",
+      "split_counts": {
+        "dev": 65,
+        "test": 135
+      },
+      "sha256": "3d0458500817086365cace990a5ddf37c0713f705ac9cc6d5b6c7f16c121ac14",
+      "sha256_upstream_crlf": "a71dd9cbd5162eb7979f59eefbf153cfe928bad84db638096f73b8d2c5870724"
+    },
+    "math_pt": {
+      "file": "math_pt.jsonl",
+      "track": "conhecimento",
+      "sector": "matematica",
+      "source": "tiagoteixeira03/MATH-PT",
+      "source_revision": "11c44f85c32d5d6b3dce76d163201ae4c6abd4b2",
+      "split_counts": {
+        "dev": 60,
+        "test": 140
+      },
+      "sha256": "ec4e95de4e684a723dd96e1d134563beaf76a4e5dec01c525271db87a0b89562",
+      "sha256_upstream_crlf": "818db2d0c790944b534c6b802ef59a5ca358c1ab7eec8855409b2bbb39a3337e"
+    },
+    "bfcl_pt": {
+      "file": "bfcl_pt.jsonl",
+      "track": "decisao",
+      "sector": "transversal",
+      "source": "jgalego/bfcl-pt-pt",
+      "source_revision": "1df66cf0e2f9c75ef169744c953ae9eef8ea78a9",
+      "split_counts": {
+        "dev": 60,
+        "test": 140
+      },
+      "sha256": "791a71a5dac282f38f9fa741a42148f5273cbe884803abdb3f1da54c7d7b10f5",
+      "sha256_upstream_crlf": "7247848c042e0d06ec0c115d8f6bdff3121218a6115660a4324f2d530889d1e1",
+      "category_counts": {
+        "simple": 60,
+        "multiple": 50,
+        "parallel": 40,
+        "parallel_multiple": 20,
+        "irrelevance": 30
+      }
+    }
+  }
+}
