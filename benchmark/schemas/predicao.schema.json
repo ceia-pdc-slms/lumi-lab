@@ -58,6 +58,29 @@
         "null"
       ],
       "description": "Motivo de parada reportado pelo servidor"
+    },
+    "choice_logits": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-J]$": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "choice_token_ids": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-J]$": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "prompt_tokens": {
+      "type": "integer",
+      "minimum": 1
     }
   }
 }

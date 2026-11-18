@@ -7,6 +7,7 @@ import platform
 import re
 import subprocess
 import sys
+from contextlib import ExitStack
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -37,7 +38,8 @@ def git(*args):
 
 def code_info():
     status = git("status", "--porcelain")
-    files = [*sorted((ROOT / "benchmark").glob("*.py")), *sorted((ROOT / "adapters").glob("*.py"))]
+    files = [*sorted((ROOT / "benchmark").glob("*.py")), *sorted((ROOT / "adapters").rglob("*.py")),
+             *sorted((ROOT / "adapters/native").glob("*.cpp"))]
     return {"commit": git("rev-parse", "HEAD"), "dirty": None if status is None else bool(status),
             "files_sha256": {str(path.relative_to(ROOT)): data.digest(path.read_bytes()) for path in files}}
 
@@ -60,6 +62,7 @@ def configuration(path):
     allowed = {
         "dummy": set(),
         "openai_compat": {"base_url", "model", "api_key_env", "timeout"},
+        "choice_logits": {"executable", "weights", "template", "context_size"},
     }
     if kind not in allowed or set(backend) - {"type"} - allowed[kind]:
         raise ValueError("Backend ou opções desconhecidas")
@@ -83,6 +86,17 @@ def configuration(path):
         timeout = backend.get("timeout", 300)
         if type(timeout) not in (int, float) or not math.isfinite(timeout) or timeout <= 0:
             raise ValueError("Timeout do servidor deve ser positivo")
+    if kind == "choice_logits":
+        if not re.fullmatch(r"[a-f0-9]{64}", str(model.get("chat_template_sha256", ""))):
+            raise ValueError("Fixe model.chat_template_sha256 com o SHA-256 do template")
+        if not all(isinstance(backend.get(key), str) and backend[key]
+                   for key in ("executable", "weights", "template")):
+            raise ValueError("Informe executable, weights e template para choice_logits")
+        context_size = backend.get("context_size")
+        if type(context_size) is not int or not 4 <= context_size <= 32768:
+            raise ValueError("Contexto de choice_logits deve estar entre 4 e 32768")
+        if config.get("prompt_variant", "direct") != "direct":
+            raise ValueError("choice_logits usa o prompt direct")
     if config.get("adapter", "default") not in outputs.ADAPTERS:
         raise ValueError("Adaptador desconhecido")
     if config.get("prompt_variant", "direct") not in {"direct", "cot"}:
@@ -138,6 +152,9 @@ def predict(backend, track, example, variant, adapter, generation):
                "reasoning_output": response.get("reasoning_output"), "finish_reason": response.get("finish_reason"),
                "latency_s": response.get("latency_s"), "n_gen_tokens": response.get("n_gen_tokens"),
                "error": None}
+        for key in ("choice_logits", "choice_token_ids", "prompt_tokens"):
+            if key in response:
+                row[key] = response[key]
         json.dumps(row, allow_nan=False)
         return row
     except (TimeoutError, URLError) as exc:
@@ -156,8 +173,16 @@ def execute(config_path, output, *, suite="lumibench", directory=data.DEFAULT_DA
     config, raw_config, generation = configuration(config_path)
     bundle = load_suite(suite, directory)
     selected, sources = select(bundle, split, datasets, limit)
-    with new_directory(output) as stage:
-        backend = backends.make_backend(config["backend"])
+    native_choices = config["backend"]["type"] == "choice_logits"
+    if native_choices and "decisao" in selected:
+        raise ValueError("choice_logits requer selecionar somente bases de múltipla escolha")
+    with new_directory(output) as stage, ExitStack() as resources:
+        if native_choices:
+            from adapters.choice_logits import ChoiceLogitsBackend
+            backend = ChoiceLogitsBackend(config["backend"], config["model"])
+            resources.callback(backend.close)
+        else:
+            backend = backends.make_backend(config["backend"])
         adapter, variant = config.get("adapter", "default"), config.get("prompt_variant", "direct")
         manifest = {
             "contract": CONTRACT, "run_id": output.name, "started_at": now(),

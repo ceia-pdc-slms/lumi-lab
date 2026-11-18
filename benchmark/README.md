@@ -52,3 +52,15 @@ Em B, o parser interpreta a saída e compara chamadas sem executá-las. O paream
 A taxa por argumento usa o total de argumentos esperados nos itens com chamada, com a regra upstream de argumentos opcionais. Abstenção usa itens sem chamada esperada. Uma resposta explícita com lista vazia em um caso que pede ferramenta conta como chamada omitida. Respostas inválidas, timeouts e predições ausentes contam como erro no resultado principal. Cobertura é a fração com registro de predição, incluindo registros de falha. Métricas sem denominador aparecem como `null`. O JSON detalha dataset, setor e tarefa dentro de cada trilha. Calibração fica pendente de uma fonte de probabilidades comparáveis por alternativa.
 
 Veja as [decisões de migração](../docs/integracao-lumibench.md) e os [critérios para treino](../data/README.md).
+
+## Múltipla escolha em uma passada
+
+O backend opcional `choice_logits` usa o mesmo enunciado e as alternativas do perfil `direct`. Renderiza o template com `enable_thinking=False`, inclui `Resposta:` no lado do assistente e escolhe a letra de maior logit. O registro da predição inclui os logits das alternativas válidas, os IDs desses tokens e o tamanho da entrada em tokens. O manifesto registra a configuração, o hash do template e o hash do executável. Veja a [compilação e o perfil](../adapters/native/README.md).
+
+Para comparar em desenvolvimento, rode os dois perfis sobre os mesmos itens, com os quatro datasets de conhecimento e o mesmo limite por dataset:
+
+```bash
+python3 -m benchmark run --split dev --config /caminho/para/o/perfil.json \
+  --dataset oab_exams --dataset drbodebench_inep --dataset bluex --dataset math_pt \
+  --limit-per-dataset 3 --out results/local/perfil-dev
+```
