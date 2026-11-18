@@ -36,6 +36,8 @@ O perfil de inferência usa `/v1/chat/completions` de um servidor compatível, p
 
 `prompt_variant` aceita `direct` ou `cot` na trilha A. O prompt da trilha B é o mesmo para as duas variantes. O envio contém apenas enunciado e alternativas ou pedido e ferramentas disponíveis. Respostas fixas exercitam a integração. A avaliação com modelo usa o perfil de inferência. O limite por dataset é permitido em `dev`; no teste, cada dataset escolhido é executado inteiro. O manifesto indica se o recorte é parcial.
 
+O [contrato de avaliação](../docs/contrato-avaliacao.md) fixa as mensagens, o formato de decisão, o template do Lumi e o comando de verificação dos três casos em desenvolvimento.
+
 Cada execução grava `config.json`, `manifest.json`, predições brutas e normalizadas, pontuação por item, métricas JSON e relatório Markdown. O manifesto fixa hashes, IDs na ordem de execução, revisão do avaliador e parâmetros. O recálculo usa os IDs do manifesto como denominador e sinaliza predições alteradas ou ausentes em `replay.json`. Use um diretório de saída novo a cada execução.
 
 ## Pontuação
