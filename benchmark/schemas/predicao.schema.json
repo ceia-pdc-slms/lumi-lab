@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Predição Lumi Lab, uma linha por item selecionado",
+  "type": "object",
+  "required": [
+    "id",
+    "raw_output",
+    "normalized_output",
+    "error"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "raw_output": {
+      "type": "string",
+      "description": "Texto bruto retornado pelo backend"
+    },
+    "n_gen_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "latency_s": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "error": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "normalized_output": {
+      "type": "string",
+      "description": "Texto após o adaptador, antes da pontuação"
+    },
+    "tool_calls": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "Chamadas estruturadas retornadas pelo servidor"
+    },
+    "reasoning_output": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Campo de raciocínio quando fornecido separadamente pelo servidor"
+    },
+    "finish_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Motivo de parada reportado pelo servidor"
+    },
+    "choice_logits": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-J]$": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "choice_token_ids": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-J]$": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "prompt_tokens": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "server_latency_s": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Tempo da passada no processo residente, antes do transporte HTTP"
+    }
+  }
+}

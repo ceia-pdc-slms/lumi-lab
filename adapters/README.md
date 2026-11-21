@@ -1,7 +1,7 @@
 # Adaptadores de modelos
 
-Aqui ficam as integrações que convertem as saídas de cada modelo para o formato comum acordado no [contrato](../docs/contrato-avaliacao.md).
+[`backends.py`](backends.py) fornece respostas fixas para verificação e conecta modelos servidos em uma API OpenAI-compatible. [`outputs.py`](outputs.py) adapta o texto para o avaliador e preserva as chamadas estruturadas fornecidas pelo servidor. O adaptador recebe apenas a saída do modelo.
 
-Preservar a resposta bruta e registrar erros de extração/normalização. Não corrigir respostas usando o gabarito. Declarar tarefas suportadas, template, checkpoint e dependências de cada integração.
+O adaptador padrão remove marcadores de controle. Na trilha de conhecimento, o adaptador `reasoning` usa a resposta depois do último marcador de resposta final. Na trilha de decisão, a saída segue para o parser comum. As regras e denominadores são os mesmos para os modelos com itens comparáveis.
 
-As referências iniciais são um modelo aberto pequeno e o Lumi original; depois entram Decision e Reasoning. O contrato e os adaptadores ainda serão implementados nas [tarefas](../docs/tarefas.md).
+Veja o [guia do benchmark](../benchmark/README.md) para configurar o servidor e registrar as revisões.

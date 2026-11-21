@@ -1,0 +1,29 @@
+{
+  "backend": {
+    "type": "openai_compat",
+    "base_url": "http://127.0.0.1:11434/v1",
+    "model": "lumi:0.2",
+    "api_key_env": "LUMI_BENCHMARK_API_KEY",
+    "timeout": 120
+  },
+  "model": {
+    "revision": "704dc11770c3a5b0bdd913abbd37cf9821e1b6328d355e1f3021b9f248c32b1a",
+    "tokenizer_revision": "704dc11770c3a5b0bdd913abbd37cf9821e1b6328d355e1f3021b9f248c32b1a",
+    "quantization": "Q4_K_M",
+    "runtime": "Ollama 0.40.16",
+    "hardware": "Apple M3 Pro",
+    "context_size": null,
+    "artifact": "hf.co/Mateus-Nery/lumi-4b-GGUF:Q4_K_XL",
+    "template_source": "gguf_chat_template",
+    "ollama_package_sha256": "5c0e767deb3570900fef1ee590337f298386d728faf33336a9bff1afd5c7b61d",
+    "chat_template_sha256": "c2bae541dabb83fe11bf6468864c8d2ad754858c11ee5495b9583c5246567e9f",
+    "ollama_alias_digest": "ac7edc73a33cc07c817d911c7c5a19c12063294d4d390c4cf3f8a4c97c0c9e97"
+  },
+  "adapter": "default",
+  "prompt_variant": "direct",
+  "generation": {
+    "max_new_tokens": 1024,
+    "temperature": 0.0,
+    "seed": 42
+  }
+}

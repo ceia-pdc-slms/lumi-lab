@@ -2,7 +2,16 @@
 
 Repositório público das frentes de **dados e benchmark** e **adaptação e fine-tuning** do grupo de Lucca no CEIA/UFG. Desenvolvemos e comparamos o Lumi original, o Lumi Decision e o Lumi Reasoning com dados em português e execuções reproduzíveis.
 
-**Estado inicial — 16/11/2026:** a estrutura e o acompanhamento estão preparados. O avaliador, os datasets finais, os treinamentos e os resultados serão entregues pelas tarefas dos times. Este repo ainda não contém um benchmark executável nem resultados validados.
+## LumiBench
+
+O LumiBench reúne **1.000 itens versionados** em português. São 800 questões de conhecimento e 200 de decisão sobre ferramentas, com 313 itens em desenvolvimento e 687 em teste.
+
+| Quero | Onde começar |
+|---|---|
+| Obter os dados e conferir os splits | [Dados e curadoria](data/README.md) |
+| Reproduzir Lumi e Qwen3 no Ollama | [Guia de execução do baseline](benchmark/ollama.md) |
+| Conferir números e predições | [Resultados do LumiBench](results/README.md) |
+| Integrar modelos e variantes | [Guia do avaliador](benchmark/README.md) · [Contrato de avaliação](docs/contrato-avaliacao.md) |
 
 ## Comece aqui
 
@@ -42,7 +51,7 @@ Versões candidatas devem chegar à integração **até 24/11**, como meta opera
 | [`results/`](results/README.md) | Predições, resumos, erros e referências dos experimentos |
 | [`docs/`](docs/README.md) | Planejamento, contrato, metodologia e decisões |
 
-Não há dependências de inferência ou treinamento definidas nesta preparação. A implementação deverá documentar e fixar seu ambiente; os notebooks devem usar o mesmo código do pipeline.
+O avaliador roda com Python e biblioteca padrão. O servidor de inferência roda à parte e sua versão, seu hardware e a revisão dos pesos e do tokenizer ficam no manifesto da execução.
 
 ## Público e reproduzível
 

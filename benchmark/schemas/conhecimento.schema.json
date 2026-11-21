@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Exemplo da trilha A (conhecimento por setor) - uma linha do JSONL",
+  "type": "object",
+  "required": ["id", "dataset", "source_id", "sector", "task", "question", "choices", "answer", "group_id", "split", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "description": "Estavel e unico: <dataset>-<source_id>"},
+    "dataset": {"type": "string"},
+    "source_id": {"type": "string", "description": "Id original no dataset de origem"},
+    "sector": {"enum": ["saude", "direito", "financeiro", "agro", "matematica", "geral"]},
+    "task": {"enum": ["mcq"]},
+    "question": {"type": "string", "minLength": 1},
+    "choices": {"type": "object", "minProperties": 2, "maxProperties": 10, "patternProperties": {"^[A-J]$": {"type": "string", "minLength": 1}}, "additionalProperties": false},
+    "answer": {"type": "string", "pattern": "^[A-J]$"},
+    "group_id": {"type": "string", "description": "Exemplos do mesmo grupo (mesmo exame/ano/texto-base) ficam sempre no mesmo split"},
+    "split": {"enum": ["train", "dev", "test"]},
+    "provenance": {
+      "type": "object",
+      "required": ["source", "source_version", "license", "language_origin", "transformations"],
+      "properties": {
+        "source": {"type": "string", "description": "URL ou descricao da fonte"},
+        "source_version": {"type": "string", "description": "Hash de revisao do HF, tag ou data de coleta"},
+        "license": {"type": "string"},
+        "language_origin": {"enum": ["nativo-pt-BR", "nativo-pt-PT", "traduzido", "sintetico"]},
+        "transformations": {"type": "array", "items": {"type": "string"}, "description": "Ex.: removeu-imagem, normalizou-alternativas"}
+      }
+    }
+  }
+}

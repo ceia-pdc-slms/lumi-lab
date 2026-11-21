@@ -1,0 +1,547 @@
+{"id": "oab_exams-2011-04_53", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5925637089967495, "probs": null, "error": null}
+{"id": "oab_exams-2013-10_72", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6761977089918219, "probs": null, "error": null}
+{"id": "oab_exams-2010-02_2", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.681188624992501, "probs": null, "error": null}
+{"id": "oab_exams-2012-09_78", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.6668470000004163, "probs": null, "error": null}
+{"id": "oab_exams-2012-07_5", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5947467500081984, "probs": null, "error": null}
+{"id": "oab_exams-2013-11_64", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9707915000035428, "probs": null, "error": null}
+{"id": "oab_exams-2010-01_20", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.539199416001793, "probs": null, "error": null}
+{"id": "oab_exams-2012-06_36", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5385937499959255, "probs": null, "error": null}
+{"id": "oab_exams-2015-16_49", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7802249999949709, "probs": null, "error": null}
+{"id": "oab_exams-2015-18_13", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.091803749994142, "probs": null, "error": null}
+{"id": "oab_exams-2012-08_36", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6672255829907954, "probs": null, "error": null}
+{"id": "oab_exams-2012-06a_12", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6632486660091672, "probs": null, "error": null}
+{"id": "oab_exams-2017-24_42", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6678193340048892, "probs": null, "error": null}
+{"id": "oab_exams-2016-21_41", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6764974580000853, "probs": null, "error": null}
+{"id": "oab_exams-2017-23_77", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7246108330000425, "probs": null, "error": null}
+{"id": "oab_exams-2014-15_11", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.59504112500872, "probs": null, "error": null}
+{"id": "oab_exams-2011-05_62", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5402837500005262, "probs": null, "error": null}
+{"id": "oab_exams-2016-20_40", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.0892944999941392, "probs": null, "error": null}
+{"id": "oab_exams-2017-22_3", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8513383340032306, "probs": null, "error": null}
+{"id": "oab_exams-2011-04_59", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4822399169934215, "probs": null, "error": null}
+{"id": "oab_exams-2013-10_79", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4133951659896411, "probs": null, "error": null}
+{"id": "oab_exams-2010-02_19", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5355292500025826, "probs": null, "error": null}
+{"id": "oab_exams-2012-09_4", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7206944580102572, "probs": null, "error": null}
+{"id": "oab_exams-2012-07_79", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6658687910094159, "probs": null, "error": null}
+{"id": "oab_exams-2013-11_9", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.537780250000651, "probs": null, "error": null}
+{"id": "oab_exams-2010-01_71", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5916485829948215, "probs": null, "error": null}
+{"id": "oab_exams-2012-06_39", "raw_output": "Resposta: C) válido.", "n_gen_tokens": 8, "latency_s": 0.5431513329967856, "probs": null, "error": null}
+{"id": "oab_exams-2015-16_3", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4229907909902977, "probs": null, "error": null}
+{"id": "oab_exams-2015-18_60", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6638711249979679, "probs": null, "error": null}
+{"id": "oab_exams-2012-08_50", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.789100124995457, "probs": null, "error": null}
+{"id": "oab_exams-2012-06a_22", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4805146250000689, "probs": null, "error": null}
+{"id": "oab_exams-2017-24_62", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.222640332998708, "probs": null, "error": null}
+{"id": "oab_exams-2016-21_25", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6670010829984676, "probs": null, "error": null}
+{"id": "oab_exams-2017-23_68", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.721932458007359, "probs": null, "error": null}
+{"id": "oab_exams-2014-15_19", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7812322909885552, "probs": null, "error": null}
+{"id": "oab_exams-2011-05_35", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7244107500009704, "probs": null, "error": null}
+{"id": "oab_exams-2016-20_25", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.4815389590075938, "probs": null, "error": null}
+{"id": "oab_exams-2017-22_75", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5955439999961527, "probs": null, "error": null}
+{"id": "oab_exams-2011-04_3", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6660191249975469, "probs": null, "error": null}
+{"id": "oab_exams-2013-10_3", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7835994589986512, "probs": null, "error": null}
+{"id": "oab_exams-2010-02_95", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5431216669967398, "probs": null, "error": null}
+{"id": "oab_exams-2012-09_46", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7826231250073761, "probs": null, "error": null}
+{"id": "oab_exams-2012-07_30", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5945339169993531, "probs": null, "error": null}
+{"id": "oab_exams-2013-11_31", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.8437090419902233, "probs": null, "error": null}
+{"id": "oab_exams-2010-01_99", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5377342920110095, "probs": null, "error": null}
+{"id": "oab_exams-2012-06_70", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.2971189579984639, "probs": null, "error": null}
+{"id": "oab_exams-2015-16_59", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7769359590020031, "probs": null, "error": null}
+{"id": "oab_exams-2015-18_62", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7842231670074398, "probs": null, "error": null}
+{"id": "oab_exams-2012-08_3", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7199669580004411, "probs": null, "error": null}
+{"id": "oab_exams-2012-06a_5", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.6658819169970229, "probs": null, "error": null}
+{"id": "oab_exams-2017-24_78", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4795501670014346, "probs": null, "error": null}
+{"id": "oab_exams-2016-21_19", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.851832625005045, "probs": null, "error": null}
+{"id": "oab_exams-2017-23_57", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.6004666250082664, "probs": null, "error": null}
+{"id": "oab_exams-2014-15_53", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8446791250025854, "probs": null, "error": null}
+{"id": "oab_exams-2011-05_78", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8485305420035729, "probs": null, "error": null}
+{"id": "oab_exams-2016-20_62", "raw_output": "Resposta: D) furto consumado e homicídio qualificado.", "n_gen_tokens": 17, "latency_s": 1.1258742909994908, "probs": null, "error": null}
+{"id": "oab_exams-2017-22_62", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.2449085830012336, "probs": null, "error": null}
+{"id": "oab_exams-2011-04_33", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.8602348330023233, "probs": null, "error": null}
+{"id": "oab_exams-2013-10_22", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5959796250099316, "probs": null, "error": null}
+{"id": "oab_exams-2010-02_97", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5977657920011552, "probs": null, "error": null}
+{"id": "oab_exams-2012-09_12", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7215675829938846, "probs": null, "error": null}
+{"id": "oab_exams-2012-07_6", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.036731125001097, "probs": null, "error": null}
+{"id": "oab_exams-2013-11_78", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9669098750018748, "probs": null, "error": null}
+{"id": "oab_exams-2010-01_82", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.35655120899900794, "probs": null, "error": null}
+{"id": "oab_exams-2012-06_41", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6674450419959612, "probs": null, "error": null}
+{"id": "oab_exams-2015-16_68", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5444731250026962, "probs": null, "error": null}
+{"id": "oab_exams-2015-18_6", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.6685089160018833, "probs": null, "error": null}
+{"id": "oab_exams-2012-08_48", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3562454580096528, "probs": null, "error": null}
+{"id": "oab_exams-2012-06a_28", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4123509170021862, "probs": null, "error": null}
+{"id": "oab_exams-2017-24_74", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.5949371669994434, "probs": null, "error": null}
+{"id": "oab_exams-2016-21_5", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.843187417005538, "probs": null, "error": null}
+{"id": "oab_exams-2017-23_44", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.164865375001682, "probs": null, "error": null}
+{"id": "oab_exams-2014-15_62", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5981204580020858, "probs": null, "error": null}
+{"id": "oab_exams-2011-05_79", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8448324170021806, "probs": null, "error": null}
+{"id": "oab_exams-2016-20_33", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8483665419917088, "probs": null, "error": null}
+{"id": "oab_exams-2017-22_57", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7204545419954229, "probs": null, "error": null}
+{"id": "oab_exams-2011-04_35", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.042472250002902, "probs": null, "error": null}
+{"id": "oab_exams-2013-10_37", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.0451787920028437, "probs": null, "error": null}
+{"id": "oab_exams-2010-02_15", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6820503750059288, "probs": null, "error": null}
+{"id": "oab_exams-2012-09_71", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8470801670046058, "probs": null, "error": null}
+{"id": "oab_exams-2012-07_2", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.545960917006596, "probs": null, "error": null}
+{"id": "oab_exams-2013-11_1", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7786203750001732, "probs": null, "error": null}
+{"id": "oab_exams-2010-01_43", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5392957500007469, "probs": null, "error": null}
+{"id": "oab_exams-2012-06_62", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.41955258400412276, "probs": null, "error": null}
+{"id": "oab_exams-2015-16_12", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6733875409991015, "probs": null, "error": null}
+{"id": "oab_exams-2015-18_43", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.603652958991006, "probs": null, "error": null}
+{"id": "oab_exams-2012-08_23", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6952117090113461, "probs": null, "error": null}
+{"id": "oab_exams-2012-06a_42", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.6829617080074968, "probs": null, "error": null}
+{"id": "oab_exams-2017-24_43", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6056782079976983, "probs": null, "error": null}
+{"id": "oab_exams-2016-21_6", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8587302499945508, "probs": null, "error": null}
+{"id": "oab_exams-2017-23_21", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.601759041994228, "probs": null, "error": null}
+{"id": "oab_exams-2014-15_58", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7240953750006156, "probs": null, "error": null}
+{"id": "oab_exams-2011-05_71", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5413955000112765, "probs": null, "error": null}
+{"id": "oab_exams-2016-20_78", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7267353330098558, "probs": null, "error": null}
+{"id": "oab_exams-2017-22_21", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9771973339957185, "probs": null, "error": null}
+{"id": "oab_exams-2011-04_71", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6110496660112403, "probs": null, "error": null}
+{"id": "oab_exams-2013-10_26", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4838852910033893, "probs": null, "error": null}
+{"id": "oab_exams-2010-02_65", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.245417832993553, "probs": null, "error": null}
+{"id": "oab_exams-2012-09_66", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.35756841700640507, "probs": null, "error": null}
+{"id": "oab_exams-2012-07_9", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.3549660840071738, "probs": null, "error": null}
+{"id": "oab_exams-2013-11_62", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7217359170026612, "probs": null, "error": null}
+{"id": "oab_exams-2010-01_40", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6729847919923486, "probs": null, "error": null}
+{"id": "oab_exams-2012-06_19", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.36417899999651127, "probs": null, "error": null}
+{"id": "oab_exams-2015-16_61", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.7912802909995662, "probs": null, "error": null}
+{"id": "oab_exams-2015-18_63", "raw_output": "Resposta: C) homicídio culposo.", "n_gen_tokens": 13, "latency_s": 0.7238127500022529, "probs": null, "error": null}
+{"id": "oab_exams-2012-08_59", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5564098750037374, "probs": null, "error": null}
+{"id": "oab_exams-2012-06a_58", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7361535410018405, "probs": null, "error": null}
+{"id": "oab_exams-2017-24_25", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7263526250026189, "probs": null, "error": null}
+{"id": "oab_exams-2016-21_34", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.668017707997933, "probs": null, "error": null}
+{"id": "oab_exams-2017-23_28", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7247419999912381, "probs": null, "error": null}
+{"id": "oab_exams-2014-15_57", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9095039999956498, "probs": null, "error": null}
+{"id": "oab_exams-2011-05_11", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.5443232089892263, "probs": null, "error": null}
+{"id": "oab_exams-2016-20_69", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.7812025839957641, "probs": null, "error": null}
+{"id": "oab_exams-2017-22_78", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8520361249975394, "probs": null, "error": null}
+{"id": "oab_exams-2011-04_32", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.4805024160014, "probs": null, "error": null}
+{"id": "oab_exams-2013-10_2", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.682747750004637, "probs": null, "error": null}
+{"id": "oab_exams-2010-02_70", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8674084170052083, "probs": null, "error": null}
+{"id": "oab_exams-2012-09_47", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.0216370840062154, "probs": null, "error": null}
+{"id": "oab_exams-2012-07_35", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8316295420081588, "probs": null, "error": null}
+{"id": "oab_exams-2013-11_19", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.764924584000255, "probs": null, "error": null}
+{"id": "oab_exams-2010-01_76", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4857748329959577, "probs": null, "error": null}
+{"id": "oab_exams-2012-06_66", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.47744124999735504, "probs": null, "error": null}
+{"id": "oab_exams-2015-16_52", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6790396249998594, "probs": null, "error": null}
+{"id": "oab_exams-2015-18_70", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.6955170419969363, "probs": null, "error": null}
+{"id": "oab_exams-2012-08_78", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8635814169974765, "probs": null, "error": null}
+{"id": "oab_exams-2012-06a_14", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.913154708003276, "probs": null, "error": null}
+{"id": "oab_exams-2017-24_73", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6722331249911804, "probs": null, "error": null}
+{"id": "oab_exams-2016-21_79", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.602795792001416, "probs": null, "error": null}
+{"id": "oab_exams-2017-23_51", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6760641669970937, "probs": null, "error": null}
+{"id": "oab_exams-2014-15_61", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.9774532089941204, "probs": null, "error": null}
+{"id": "oab_exams-2011-05_10", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6248311660019681, "probs": null, "error": null}
+{"id": "oab_exams-2016-20_13", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8537667079945095, "probs": null, "error": null}
+{"id": "oab_exams-2017-22_9", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.1072795419895556, "probs": null, "error": null}
+{"id": "oab_exams-2011-04_75", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6797579160047462, "probs": null, "error": null}
+{"id": "oab_exams-2013-10_47", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.9877308750001248, "probs": null, "error": null}
+{"id": "oab_exams-2010-02_24", "raw_output": "Resposta: B) Catarina.", "n_gen_tokens": 10, "latency_s": 0.6313129580084933, "probs": null, "error": null}
+{"id": "drbodebench_inep-f70588dbc1", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8674660840042634, "probs": null, "error": null}
+{"id": "drbodebench_inep-1e5bfd20de", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6590181249921443, "probs": null, "error": null}
+{"id": "drbodebench_inep-31044ca076", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.45544975000666454, "probs": null, "error": null}
+{"id": "drbodebench_inep-6d25ad2ad2", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9078722499980358, "probs": null, "error": null}
+{"id": "drbodebench_inep-5b1cdb73fc", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7326104579988169, "probs": null, "error": null}
+{"id": "drbodebench_inep-62e766bdc1", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7241878749919124, "probs": null, "error": null}
+{"id": "drbodebench_inep-8b2dd1cb08", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6045623340032762, "probs": null, "error": null}
+{"id": "drbodebench_inep-88242af02d", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.721784540990484, "probs": null, "error": null}
+{"id": "drbodebench_inep-ac957588f3", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.48158412500924896, "probs": null, "error": null}
+{"id": "drbodebench_inep-e72c4efc88", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6660533340036636, "probs": null, "error": null}
+{"id": "drbodebench_inep-3efe64ac9a", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7259776669961866, "probs": null, "error": null}
+{"id": "drbodebench_inep-5e904e2a79", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.41649791700183414, "probs": null, "error": null}
+{"id": "drbodebench_inep-8924e380c8", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6667276249936549, "probs": null, "error": null}
+{"id": "drbodebench_inep-eca42d11bd", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.47648595899227075, "probs": null, "error": null}
+{"id": "drbodebench_inep-c138a9278a", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9103229169995757, "probs": null, "error": null}
+{"id": "drbodebench_inep-bb350e0c9b", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7312671249965206, "probs": null, "error": null}
+{"id": "drbodebench_inep-1e2f5b423f", "raw_output": "Resposta: B) psicose pós-parto.", "n_gen_tokens": 14, "latency_s": 0.8649315000075148, "probs": null, "error": null}
+{"id": "drbodebench_inep-bb330cb697", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.5563349169970024, "probs": null, "error": null}
+{"id": "drbodebench_inep-f423f9f557", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9128084580006544, "probs": null, "error": null}
+{"id": "drbodebench_inep-fc669d2fea", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.36384520799038, "probs": null, "error": null}
+{"id": "drbodebench_inep-9de14e5ca2", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7269129159976728, "probs": null, "error": null}
+{"id": "drbodebench_inep-22bdd30e37", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9668892920017242, "probs": null, "error": null}
+{"id": "drbodebench_inep-a4b7760c4a", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6701853330014274, "probs": null, "error": null}
+{"id": "drbodebench_inep-b7a4c69bf9", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7915822499926435, "probs": null, "error": null}
+{"id": "drbodebench_inep-1015908e42", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.7225538749917177, "probs": null, "error": null}
+{"id": "drbodebench_inep-74ced1da3e", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.9102577919984469, "probs": null, "error": null}
+{"id": "drbodebench_inep-e02dba81cd", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7918418330082204, "probs": null, "error": null}
+{"id": "drbodebench_inep-e40cf268e5", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.4268492499977583, "probs": null, "error": null}
+{"id": "drbodebench_inep-6b0c3472df", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.8555803750059567, "probs": null, "error": null}
+{"id": "drbodebench_inep-f88c32ee0a", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9146341669984395, "probs": null, "error": null}
+{"id": "drbodebench_inep-8ea8580387", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.1070741669973359, "probs": null, "error": null}
+{"id": "drbodebench_inep-1a3eac7e29", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.8651436250074767, "probs": null, "error": null}
+{"id": "drbodebench_inep-f46eedca8d", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.594491250012652, "probs": null, "error": null}
+{"id": "drbodebench_inep-3ac57f4537", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.9120305419928627, "probs": null, "error": null}
+{"id": "drbodebench_inep-038f83aad6", "raw_output": "Resposta: D) hemograma com atipia linfocitária exagerada.", "n_gen_tokens": 22, "latency_s": 1.2382077500078594, "probs": null, "error": null}
+{"id": "drbodebench_inep-79ee8548b4", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4954096250003204, "probs": null, "error": null}
+{"id": "drbodebench_inep-f69e104cb5", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9659807499992894, "probs": null, "error": null}
+{"id": "drbodebench_inep-a5b51045bb", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.5751558339979965, "probs": null, "error": null}
+{"id": "drbodebench_inep-d0a7c8e671", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5966604999994161, "probs": null, "error": null}
+{"id": "drbodebench_inep-19fd74ff53", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7832765409984859, "probs": null, "error": null}
+{"id": "drbodebench_inep-905865e26c", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7332634589984082, "probs": null, "error": null}
+{"id": "drbodebench_inep-e880707ba1", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.2549977909948211, "probs": null, "error": null}
+{"id": "drbodebench_inep-b39c577fd6", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.1074808749981457, "probs": null, "error": null}
+{"id": "drbodebench_inep-9341d991b8", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8502393749949988, "probs": null, "error": null}
+{"id": "drbodebench_inep-dffe2fecec", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.285556250004447, "probs": null, "error": null}
+{"id": "drbodebench_inep-4daa0c077f", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.5805588340008399, "probs": null, "error": null}
+{"id": "drbodebench_inep-f77d5af334", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4853572499996517, "probs": null, "error": null}
+{"id": "drbodebench_inep-9d4a7c42b8", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8680752920045052, "probs": null, "error": null}
+{"id": "drbodebench_inep-ddedea6e20", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.3939058329997351, "probs": null, "error": null}
+{"id": "drbodebench_inep-d216feb528", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.6091504580108449, "probs": null, "error": null}
+{"id": "drbodebench_inep-1974e41cd6", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8889982499968028, "probs": null, "error": null}
+{"id": "drbodebench_inep-31d4b4094c", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5941202090034494, "probs": null, "error": null}
+{"id": "drbodebench_inep-f645731d0a", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.462536375009222, "probs": null, "error": null}
+{"id": "drbodebench_inep-da3144064e", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.1061750419903547, "probs": null, "error": null}
+{"id": "drbodebench_inep-7e12725cd3", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.1253520830068737, "probs": null, "error": null}
+{"id": "drbodebench_inep-5fbd2c2da4", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.668141750007635, "probs": null, "error": null}
+{"id": "drbodebench_inep-676159ced6", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.3385839580005268, "probs": null, "error": null}
+{"id": "drbodebench_inep-660f6f7087", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8549013749870937, "probs": null, "error": null}
+{"id": "drbodebench_inep-abcda4c4bc", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5924194160033949, "probs": null, "error": null}
+{"id": "drbodebench_inep-fe779a55c4", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.1556586670049, "probs": null, "error": null}
+{"id": "drbodebench_inep-971e36afa5", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.0728966250026133, "probs": null, "error": null}
+{"id": "drbodebench_inep-85c460550c", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.0455683749896707, "probs": null, "error": null}
+{"id": "drbodebench_inep-b61577ec56", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8525402920058696, "probs": null, "error": null}
+{"id": "drbodebench_inep-d1b9fc1628", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8534147089958424, "probs": null, "error": null}
+{"id": "drbodebench_inep-09cfd84863", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.8963700000022072, "probs": null, "error": null}
+{"id": "drbodebench_inep-3fbc8d3e87", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8195932499947958, "probs": null, "error": null}
+{"id": "drbodebench_inep-ca2c9bc801", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6542327079951065, "probs": null, "error": null}
+{"id": "drbodebench_inep-c4ceda4b39", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.036139458999969, "probs": null, "error": null}
+{"id": "drbodebench_inep-442a678443", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.041894082998624, "probs": null, "error": null}
+{"id": "drbodebench_inep-3aab837392", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7210053749877261, "probs": null, "error": null}
+{"id": "drbodebench_inep-1b597076cb", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7859762079897337, "probs": null, "error": null}
+{"id": "drbodebench_inep-d19db5703c", "raw_output": "Resposta: B) Soro anti-escorpiônico.", "n_gen_tokens": 16, "latency_s": 1.0430265000031795, "probs": null, "error": null}
+{"id": "drbodebench_inep-4108fe404d", "raw_output": "Resposta: D) Coleta para o teste de DNA-HPV.", "n_gen_tokens": 17, "latency_s": 0.9263254170073196, "probs": null, "error": null}
+{"id": "drbodebench_inep-aac52895ed", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.9625390000001062, "probs": null, "error": null}
+{"id": "drbodebench_inep-dbeb2d3129", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8482902500109049, "probs": null, "error": null}
+{"id": "drbodebench_inep-3d7d75cc78", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7236254169984022, "probs": null, "error": null}
+{"id": "drbodebench_inep-0811237182", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.081835584001965, "probs": null, "error": null}
+{"id": "drbodebench_inep-51648154be", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7275645000045188, "probs": null, "error": null}
+{"id": "drbodebench_inep-361d68961e", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.8790519169997424, "probs": null, "error": null}
+{"id": "drbodebench_inep-713e7428d7", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.9845419589983067, "probs": null, "error": null}
+{"id": "drbodebench_inep-44e29db494", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.7792805830104044, "probs": null, "error": null}
+{"id": "drbodebench_inep-af8d7f9b28", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.0421068750001723, "probs": null, "error": null}
+{"id": "drbodebench_inep-5e700988af", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9150088340102229, "probs": null, "error": null}
+{"id": "drbodebench_inep-6f5d0ec020", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.578569499994046, "probs": null, "error": null}
+{"id": "drbodebench_inep-0c4f23cf74", "raw_output": "Resposta: B) Prescrever ACO e orientar uso de condom.", "n_gen_tokens": 18, "latency_s": 0.8385677089972887, "probs": null, "error": null}
+{"id": "drbodebench_inep-56e4224c43", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.7078200410032878, "probs": null, "error": null}
+{"id": "drbodebench_inep-be383ae12d", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8527669169998262, "probs": null, "error": null}
+{"id": "drbodebench_inep-c4788c0ea5", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7469786250003381, "probs": null, "error": null}
+{"id": "drbodebench_inep-4de8bccc0b", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6901754159916891, "probs": null, "error": null}
+{"id": "drbodebench_inep-e8f481a9c2", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8058473330020206, "probs": null, "error": null}
+{"id": "drbodebench_inep-ee3a761f00", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8986177909973776, "probs": null, "error": null}
+{"id": "drbodebench_inep-208f535a76", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.5748773750092369, "probs": null, "error": null}
+{"id": "drbodebench_inep-1b9e252351", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8655765000003157, "probs": null, "error": null}
+{"id": "drbodebench_inep-6283bbf3a9", "raw_output": "Resposta: A) anual, iniciando a partir dos 35 anos.", "n_gen_tokens": 19, "latency_s": 0.9877422080026008, "probs": null, "error": null}
+{"id": "drbodebench_inep-6fa99a740e", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5907041669997852, "probs": null, "error": null}
+{"id": "drbodebench_inep-5094f13f3e", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8799339580000378, "probs": null, "error": null}
+{"id": "drbodebench_inep-f268076114", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6585450830025366, "probs": null, "error": null}
+{"id": "drbodebench_inep-8307c6dc1e", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7559544579999056, "probs": null, "error": null}
+{"id": "drbodebench_inep-616e7d32ea", "raw_output": "Resposta: D) Hipertrofia clitoridiana.", "n_gen_tokens": 16, "latency_s": 0.8718297090090346, "probs": null, "error": null}
+{"id": "drbodebench_inep-8d32edf61f", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8838707920076558, "probs": null, "error": null}
+{"id": "drbodebench_inep-ecbb544a2d", "raw_output": "Resposta: C) Leptospirose em fase precoce.", "n_gen_tokens": 16, "latency_s": 2.110854999991716, "probs": null, "error": null}
+{"id": "drbodebench_inep-33a29682d9", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.768991165998159, "probs": null, "error": null}
+{"id": "drbodebench_inep-13e1aa3f2a", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.862921958003426, "probs": null, "error": null}
+{"id": "drbodebench_inep-28233d8c70", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6536142499971902, "probs": null, "error": null}
+{"id": "drbodebench_inep-00cf144b67", "raw_output": "Resposta: B) dosagem dos hormônios FSH e LH.", "n_gen_tokens": 17, "latency_s": 0.8880391250131652, "probs": null, "error": null}
+{"id": "drbodebench_inep-601f9931ad", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6625749999948312, "probs": null, "error": null}
+{"id": "drbodebench_inep-dad0633368", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.052518541997415, "probs": null, "error": null}
+{"id": "drbodebench_inep-b5942f0009", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.5891237080068095, "probs": null, "error": null}
+{"id": "drbodebench_inep-a418d5d4f6", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.2047386659978656, "probs": null, "error": null}
+{"id": "drbodebench_inep-ace495541c", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7002695000119274, "probs": null, "error": null}
+{"id": "drbodebench_inep-adb4d04818", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8844412500038743, "probs": null, "error": null}
+{"id": "drbodebench_inep-8ea8b6af62", "raw_output": "Resposta: B) Taquicardia e elevação da amilase.", "n_gen_tokens": 19, "latency_s": 2.445040416001575, "probs": null, "error": null}
+{"id": "drbodebench_inep-8da51825cb", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.8917501249961788, "probs": null, "error": null}
+{"id": "drbodebench_inep-24d240fee3", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.9767875830002595, "probs": null, "error": null}
+{"id": "drbodebench_inep-c814206d55", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.9294659160077572, "probs": null, "error": null}
+{"id": "drbodebench_inep-80b3698486", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.0713327499979641, "probs": null, "error": null}
+{"id": "drbodebench_inep-4f4d021421", "raw_output": "Resposta: C) acidose metabólica hipoclorêmica.", "n_gen_tokens": 16, "latency_s": 1.0678836250008317, "probs": null, "error": null}
+{"id": "drbodebench_inep-14da21ae3f", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7218275829945924, "probs": null, "error": null}
+{"id": "drbodebench_inep-99297ae652", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9223969169979682, "probs": null, "error": null}
+{"id": "drbodebench_inep-99d32e33e3", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7897520419937791, "probs": null, "error": null}
+{"id": "drbodebench_inep-628bdfc62c", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.0942135410004994, "probs": null, "error": null}
+{"id": "drbodebench_inep-da41f9a0db", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9320266249997076, "probs": null, "error": null}
+{"id": "drbodebench_inep-470e587c30", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8245756670075934, "probs": null, "error": null}
+{"id": "drbodebench_inep-2393744507", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.7949202500021784, "probs": null, "error": null}
+{"id": "drbodebench_inep-224f3ed988", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.54402050000499, "probs": null, "error": null}
+{"id": "drbodebench_inep-7f4a103a5a", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9504614170000423, "probs": null, "error": null}
+{"id": "drbodebench_inep-4abb8fb1a7", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.7038719999982277, "probs": null, "error": null}
+{"id": "drbodebench_inep-65f1a8cc34", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8038986249885056, "probs": null, "error": null}
+{"id": "drbodebench_inep-8a9c0034f4", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8428770840109792, "probs": null, "error": null}
+{"id": "drbodebench_inep-5de34c29a7", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9482132499979343, "probs": null, "error": null}
+{"id": "drbodebench_inep-f2dbe5cc9a", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.9638991669926327, "probs": null, "error": null}
+{"id": "drbodebench_inep-a494bbe677", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.133784374993411, "probs": null, "error": null}
+{"id": "drbodebench_inep-2544aab45a", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.49886345901177265, "probs": null, "error": null}
+{"id": "drbodebench_inep-070d8c7c28", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7969397919951007, "probs": null, "error": null}
+{"id": "drbodebench_inep-7bccb756f2", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7752046660025371, "probs": null, "error": null}
+{"id": "drbodebench_inep-05ea9c579c", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7833123330055969, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_13", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.8346693750063423, "probs": null, "error": null}
+{"id": "bluex-USP_2019_66", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.4842915420013014, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_16", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.3529251250001835, "probs": null, "error": null}
+{"id": "bluex-USP_2024_82", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.7179587919963524, "probs": null, "error": null}
+{"id": "bluex-USP_2023_12", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.7490578340075444, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_89", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.350210499993409, "probs": null, "error": null}
+{"id": "bluex-USP_2022_46", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.3048353330086684, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_78", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6288134579954203, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_7", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.127481749994331, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_46", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.686385415989207, "probs": null, "error": null}
+{"id": "bluex-USP_2025_42", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.0126955000014277, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_61", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5752042079984676, "probs": null, "error": null}
+{"id": "bluex-USP_2019_29", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.5487081250030315, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_59", "raw_output": "Resposta: B) 𝑝/1,21.", "n_gen_tokens": 15, "latency_s": 0.7842425840062788, "probs": null, "error": null}
+{"id": "bluex-USP_2024_86", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.2781797909992747, "probs": null, "error": null}
+{"id": "bluex-USP_2023_66", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6762791250075679, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_58", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.1214895419980166, "probs": null, "error": null}
+{"id": "bluex-USP_2022_34", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6714018749917159, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_33", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9416359169990756, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_43", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.1976149999973131, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_57", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.0104684580001049, "probs": null, "error": null}
+{"id": "bluex-USP_2025_37", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.6956884579994949, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_43", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.0882504579931265, "probs": null, "error": null}
+{"id": "bluex-USP_2019_65", "raw_output": "Resposta: A) I.", "n_gen_tokens": 8, "latency_s": 0.5680699160002405, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_81", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 2.1424899169942364, "probs": null, "error": null}
+{"id": "bluex-USP_2024_24", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.130974374988, "probs": null, "error": null}
+{"id": "bluex-USP_2023_48", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6812612909998279, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_43", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.4921549999999115, "probs": null, "error": null}
+{"id": "bluex-USP_2022_82", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6710089170082938, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_13", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.3747847919876222, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_27", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.200504042004468, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_16", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.745323458002531, "probs": null, "error": null}
+{"id": "bluex-USP_2025_66", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.4962458329973742, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_42", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.3679786249995232, "probs": null, "error": null}
+{"id": "bluex-USP_2019_24", "raw_output": "Resposta: C) 10,0", "n_gen_tokens": 11, "latency_s": 0.864081082996563, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_46", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.2265954169997713, "probs": null, "error": null}
+{"id": "bluex-USP_2024_37", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8059505830024136, "probs": null, "error": null}
+{"id": "bluex-USP_2023_54", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7774952920008218, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_62", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.032108250001329, "probs": null, "error": null}
+{"id": "bluex-USP_2022_58", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.6159247920004418, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_67", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.019416666997131, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_35", "raw_output": "Resposta: B) -3,60 x 10^10 J.", "n_gen_tokens": 20, "latency_s": 1.2933806249930058, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_71", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.0190674999903422, "probs": null, "error": null}
+{"id": "bluex-USP_2025_8", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.9594354170112638, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_18", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.2024208749935497, "probs": null, "error": null}
+{"id": "bluex-USP_2019_50", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.771387707995018, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_77", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.2720859999972163, "probs": null, "error": null}
+{"id": "bluex-USP_2024_83", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7975432079983875, "probs": null, "error": null}
+{"id": "bluex-USP_2023_16", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.2955608329939423, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_75", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.7337511249934323, "probs": null, "error": null}
+{"id": "bluex-USP_2022_71", "raw_output": "Resposta: B) -55,0", "n_gen_tokens": 11, "latency_s": 0.9551434160093777, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_8", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6844037080009002, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_38", "raw_output": "Resposta: A) 0,20 N.", "n_gen_tokens": 13, "latency_s": 1.0052302500116639, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_32", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.3780283329979284, "probs": null, "error": null}
+{"id": "bluex-USP_2025_34", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.9211704159970395, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_53", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.0631940419989405, "probs": null, "error": null}
+{"id": "bluex-USP_2019_59", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.1684647080110153, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_43", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.8437809169990942, "probs": null, "error": null}
+{"id": "bluex-USP_2024_29", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.325389207995613, "probs": null, "error": null}
+{"id": "bluex-USP_2023_11", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.9192588750011055, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_85", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.1279099160019541, "probs": null, "error": null}
+{"id": "bluex-USP_2022_45", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.8207212499983143, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_77", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6105139999999665, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_12", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.3638128330057953, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_3", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.3699836660089204, "probs": null, "error": null}
+{"id": "bluex-USP_2025_90", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.0118037089996506, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_46", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8918665840028552, "probs": null, "error": null}
+{"id": "bluex-USP_2019_28", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.4797592910035746, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_8", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8004039169900352, "probs": null, "error": null}
+{"id": "bluex-USP_2024_88", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.4697193749889266, "probs": null, "error": null}
+{"id": "bluex-USP_2023_31", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.82435241699568, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_77", "raw_output": "Resposta: B) 6,7x10^-5.", "n_gen_tokens": 16, "latency_s": 1.2194960420019925, "probs": null, "error": null}
+{"id": "bluex-USP_2022_72", "raw_output": "Resposta: D) 10^(-20) J", "n_gen_tokens": 15, "latency_s": 1.2841098749922821, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_73", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.9317693750053877, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_36", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5374386670009699, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_14", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9160341250099009, "probs": null, "error": null}
+{"id": "bluex-USP_2025_64", "raw_output": "Resposta: C) 0,75.", "n_gen_tokens": 12, "latency_s": 1.1496661249984754, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_7", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.3121606249915203, "probs": null, "error": null}
+{"id": "bluex-USP_2019_23", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9300096660008421, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_56", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.3791042079974432, "probs": null, "error": null}
+{"id": "bluex-USP_2024_79", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.134516916994471, "probs": null, "error": null}
+{"id": "bluex-USP_2023_70", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.0689405410084873, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_18", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9250611249881331, "probs": null, "error": null}
+{"id": "bluex-USP_2022_89", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.7386159579909872, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_50", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.1843010830052663, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_52", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.1074490419996437, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_59", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7445182500086958, "probs": null, "error": null}
+{"id": "bluex-USP_2025_25", "raw_output": "Resposta: A) 1:20.000.", "n_gen_tokens": 16, "latency_s": 0.9621950830041897, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_30", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6970638329948997, "probs": null, "error": null}
+{"id": "bluex-USP_2019_64", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.0570877499994822, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_45", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.664422875008313, "probs": null, "error": null}
+{"id": "bluex-USP_2024_45", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.2221092090039747, "probs": null, "error": null}
+{"id": "bluex-USP_2023_36", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.4386060839897254, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_53", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.7469453329977114, "probs": null, "error": null}
+{"id": "bluex-USP_2022_83", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6886504589929245, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_57", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.1496027920074994, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_53", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.0623258750129025, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_48", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.1973857919947477, "probs": null, "error": null}
+{"id": "bluex-USP_2025_56", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.0798752499977127, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_21", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7648077920021024, "probs": null, "error": null}
+{"id": "bluex-USP_2019_58", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.5192598330031615, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_14", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.2324544170114677, "probs": null, "error": null}
+{"id": "bluex-USP_2024_36", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.0005952500068815, "probs": null, "error": null}
+{"id": "bluex-USP_2023_7", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9302440419996856, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_38", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.730492917005904, "probs": null, "error": null}
+{"id": "bluex-USP_2022_26", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.1429452919983305, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_20", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.30924287499510683, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_5", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9934897919883952, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_50", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.7261601670033997, "probs": null, "error": null}
+{"id": "bluex-USP_2025_15", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.8759682499949122, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_31", "raw_output": "Resposta: C) 2,0 x 105 J", "n_gen_tokens": 16, "latency_s": 0.9110958340024808, "probs": null, "error": null}
+{"id": "bluex-USP_2019_70", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.043559916986851, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_2", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.0389980420004576, "probs": null, "error": null}
+{"id": "bluex-USP_2024_2", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.2142123330122558, "probs": null, "error": null}
+{"id": "bluex-USP_2023_19", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 1.1951377090008464, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_71", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7719224579923321, "probs": null, "error": null}
+{"id": "bluex-USP_2022_77", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.6258033750054892, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_45", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.7160453749966109, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_71", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.9287175000063144, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_22", "raw_output": "Resposta: D) 3/2.", "n_gen_tokens": 11, "latency_s": 0.7471173749945592, "probs": null, "error": null}
+{"id": "bluex-USP_2025_43", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9056096669955878, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_10", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.4646027499984484, "probs": null, "error": null}
+{"id": "bluex-USP_2019_87", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.2779856669949368, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_80", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 1.6881699170044158, "probs": null, "error": null}
+{"id": "bluex-USP_2024_67", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 1.3677380409935722, "probs": null, "error": null}
+{"id": "bluex-USP_2023_8", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.374251125002047, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2020_37", "raw_output": "Resposta: C) -15.", "n_gen_tokens": 10, "latency_s": 0.43645083300361875, "probs": null, "error": null}
+{"id": "bluex-USP_2022_78", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.115453874997911, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2018_82", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5473376669979189, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2024_64", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5226917919935659, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2022_2", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 1.368615333994967, "probs": null, "error": null}
+{"id": "bluex-USP_2025_81", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.9842852910078363, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2023_41", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 1.7633397500030696, "probs": null, "error": null}
+{"id": "bluex-USP_2019_80", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.936350667005172, "probs": null, "error": null}
+{"id": "bluex-UNICAMP_2019_89", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.9608511249971343, "probs": null, "error": null}
+{"id": "math_pt-41e2672bf6", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.5551341669925023, "probs": null, "error": null}
+{"id": "math_pt-d7245f223d", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3453537080058595, "probs": null, "error": null}
+{"id": "math_pt-6878bd51a9", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.30944070901023224, "probs": null, "error": null}
+{"id": "math_pt-ec3c9560f1", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.534097916999599, "probs": null, "error": null}
+{"id": "math_pt-1566ca6253", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3431163750065025, "probs": null, "error": null}
+{"id": "math_pt-a7fd23248b", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3573321669973666, "probs": null, "error": null}
+{"id": "math_pt-8849ae04ae", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.45685808300913777, "probs": null, "error": null}
+{"id": "math_pt-45d5b4e847", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.4603298750007525, "probs": null, "error": null}
+{"id": "math_pt-aeae60b65d", "raw_output": "Resposta: D) 4500", "n_gen_tokens": 11, "latency_s": 0.5355295409972314, "probs": null, "error": null}
+{"id": "math_pt-cc62846bbf", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.4286854999954812, "probs": null, "error": null}
+{"id": "math_pt-0b1418b2a6", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5297675000037998, "probs": null, "error": null}
+{"id": "math_pt-92a1df150e", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.41003545800049324, "probs": null, "error": null}
+{"id": "math_pt-70f1adf299", "raw_output": "Resposta: C) R 250,00", "n_gen_tokens": 14, "latency_s": 0.6689383750053821, "probs": null, "error": null}
+{"id": "math_pt-325af2abe7", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.4520425830123713, "probs": null, "error": null}
+{"id": "math_pt-77761c632a", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.351186375002726, "probs": null, "error": null}
+{"id": "math_pt-34a29d5b1e", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.2947912920062663, "probs": null, "error": null}
+{"id": "math_pt-489adc5e53", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.45398916699923575, "probs": null, "error": null}
+{"id": "math_pt-fd2519a034", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.34849412499170285, "probs": null, "error": null}
+{"id": "math_pt-c31847b81d", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.4234858330019051, "probs": null, "error": null}
+{"id": "math_pt-a7c341b121", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.36766716599231586, "probs": null, "error": null}
+{"id": "math_pt-39b231cf0c", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.6187343329947907, "probs": null, "error": null}
+{"id": "math_pt-4c7f32a26a", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.9511785829963628, "probs": null, "error": null}
+{"id": "math_pt-435d4a032e", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.8153369169885991, "probs": null, "error": null}
+{"id": "math_pt-32e9607aac", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5575192910037003, "probs": null, "error": null}
+{"id": "math_pt-09b4ab64df", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.37773224999546073, "probs": null, "error": null}
+{"id": "math_pt-ca06a9668e", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.5172361249860842, "probs": null, "error": null}
+{"id": "math_pt-f1ffdc3844", "raw_output": "Resposta: D) 72", "n_gen_tokens": 9, "latency_s": 0.564090457992279, "probs": null, "error": null}
+{"id": "math_pt-590647972f", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3878802910039667, "probs": null, "error": null}
+{"id": "math_pt-1f06e165e1", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.43045254101161845, "probs": null, "error": null}
+{"id": "math_pt-b60464087f", "raw_output": "Resposta: C) 152 metros", "n_gen_tokens": 11, "latency_s": 0.6591262500005541, "probs": null, "error": null}
+{"id": "math_pt-c2d3a8c319", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.5603487089974806, "probs": null, "error": null}
+{"id": "math_pt-f7f4d65482", "raw_output": "Resposta: D) 90", "n_gen_tokens": 9, "latency_s": 0.6358144999976503, "probs": null, "error": null}
+{"id": "math_pt-11cecbd3d0", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.4708489579934394, "probs": null, "error": null}
+{"id": "math_pt-47503bda86", "raw_output": "Resposta: D) 407", "n_gen_tokens": 10, "latency_s": 0.4608845000038855, "probs": null, "error": null}
+{"id": "math_pt-1869075dbb", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.4283637079934124, "probs": null, "error": null}
+{"id": "math_pt-da2384a737", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.35404858300171327, "probs": null, "error": null}
+{"id": "math_pt-267734d721", "raw_output": "Resposta: A) uma hora e meia", "n_gen_tokens": 11, "latency_s": 0.48533091600984335, "probs": null, "error": null}
+{"id": "math_pt-c34129477c", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.31971149999299087, "probs": null, "error": null}
+{"id": "math_pt-85e37ea54f", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3517770000034943, "probs": null, "error": null}
+{"id": "math_pt-82771c3c7a", "raw_output": "Resposta: D) 100", "n_gen_tokens": 10, "latency_s": 0.4675003750016913, "probs": null, "error": null}
+{"id": "math_pt-9752a9295a", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.42732750000141095, "probs": null, "error": null}
+{"id": "math_pt-21e8fb0ab6", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5485644999862416, "probs": null, "error": null}
+{"id": "math_pt-e0180ef098", "raw_output": "Resposta: C) 451", "n_gen_tokens": 10, "latency_s": 0.549910749992705, "probs": null, "error": null}
+{"id": "math_pt-0ea3c0e725", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5243233750079526, "probs": null, "error": null}
+{"id": "math_pt-38f7820962", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.34651791700161994, "probs": null, "error": null}
+{"id": "math_pt-1ad50897b3", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.29866587500146125, "probs": null, "error": null}
+{"id": "math_pt-922d031551", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4776624579972122, "probs": null, "error": null}
+{"id": "math_pt-c8368c2889", "raw_output": "Resposta: D) 706", "n_gen_tokens": 10, "latency_s": 0.6518733749981038, "probs": null, "error": null}
+{"id": "math_pt-6b9c17de5c", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5587430000014137, "probs": null, "error": null}
+{"id": "math_pt-9ed11cfae0", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.43442266699275933, "probs": null, "error": null}
+{"id": "math_pt-fb06e7f19d", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.32476754099479876, "probs": null, "error": null}
+{"id": "math_pt-a03cf6cb7a", "raw_output": "Resposta: A) 7/12", "n_gen_tokens": 11, "latency_s": 0.44247933400038164, "probs": null, "error": null}
+{"id": "math_pt-22ec929b37", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.360448917010217, "probs": null, "error": null}
+{"id": "math_pt-e6865b6d97", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4744155419903109, "probs": null, "error": null}
+{"id": "math_pt-56d1c88d81", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.54263362500933, "probs": null, "error": null}
+{"id": "math_pt-11899958fd", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6261585000029299, "probs": null, "error": null}
+{"id": "math_pt-eb9679d5c4", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.40987754199886695, "probs": null, "error": null}
+{"id": "math_pt-5e5dfa4406", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.35368079200270586, "probs": null, "error": null}
+{"id": "math_pt-a3dabcb013", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.3803701249998994, "probs": null, "error": null}
+{"id": "math_pt-b99d254161", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.6640686669998104, "probs": null, "error": null}
+{"id": "math_pt-352fd9fb13", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.48580662500171456, "probs": null, "error": null}
+{"id": "math_pt-f1ebd3df2b", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.22886429200298153, "probs": null, "error": null}
+{"id": "math_pt-e50080df1e", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.35045516699028667, "probs": null, "error": null}
+{"id": "math_pt-a118fce318", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3524856669973815, "probs": null, "error": null}
+{"id": "math_pt-9cfb92daaa", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.4179667080024956, "probs": null, "error": null}
+{"id": "math_pt-9bed22b183", "raw_output": "Resposta: C) 49/90", "n_gen_tokens": 12, "latency_s": 0.6536342089966638, "probs": null, "error": null}
+{"id": "math_pt-14c2c19e9a", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.4054324589960743, "probs": null, "error": null}
+{"id": "math_pt-cddc80e62f", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.30090599998948164, "probs": null, "error": null}
+{"id": "math_pt-8307f749b0", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.2978514160058694, "probs": null, "error": null}
+{"id": "math_pt-01dd4fbd13", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.30185854200681206, "probs": null, "error": null}
+{"id": "math_pt-6f26864a6c", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.29720812498999294, "probs": null, "error": null}
+{"id": "math_pt-8cc0d76a6a", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5352616669988493, "probs": null, "error": null}
+{"id": "math_pt-868092fad9", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.4268559999909485, "probs": null, "error": null}
+{"id": "math_pt-b4f6731bc9", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.29616612500103656, "probs": null, "error": null}
+{"id": "math_pt-01a08fe73f", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.35396104099345393, "probs": null, "error": null}
+{"id": "math_pt-da9f31dbae", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.35065491699788254, "probs": null, "error": null}
+{"id": "math_pt-88c9d3aded", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.48327758300001733, "probs": null, "error": null}
+{"id": "math_pt-19176e77b4", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.46344374999171123, "probs": null, "error": null}
+{"id": "math_pt-04b058068e", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.47501362500770483, "probs": null, "error": null}
+{"id": "math_pt-8b547524ac", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.2996393329958664, "probs": null, "error": null}
+{"id": "math_pt-a9e755e27d", "raw_output": "Resposta: C) 120 m", "n_gen_tokens": 11, "latency_s": 0.5462062919978052, "probs": null, "error": null}
+{"id": "math_pt-abb91636e2", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.4255888750049053, "probs": null, "error": null}
+{"id": "math_pt-003c5aed35", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3565285000076983, "probs": null, "error": null}
+{"id": "math_pt-066c27c396", "raw_output": "Resposta: C) 54,54%", "n_gen_tokens": 13, "latency_s": 0.7693951249966631, "probs": null, "error": null}
+{"id": "math_pt-3f95b11afc", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5968340420076856, "probs": null, "error": null}
+{"id": "math_pt-5de511c729", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.3565566250035772, "probs": null, "error": null}
+{"id": "math_pt-439acaf725", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3547603749902919, "probs": null, "error": null}
+{"id": "math_pt-2fbf44b4c4", "raw_output": "Resposta: D) 114 copos de água e 11 de leite.", "n_gen_tokens": 22, "latency_s": 1.217215207987465, "probs": null, "error": null}
+{"id": "math_pt-65dec80f2f", "raw_output": "Resposta: C) 50", "n_gen_tokens": 9, "latency_s": 0.8788003329973435, "probs": null, "error": null}
+{"id": "math_pt-6a4e8b0176", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.48996608299785294, "probs": null, "error": null}
+{"id": "math_pt-26bb3786fb", "raw_output": "Resposta: C) 2/3", "n_gen_tokens": 10, "latency_s": 0.5275769169966225, "probs": null, "error": null}
+{"id": "math_pt-af4f4dd0ce", "raw_output": "Resposta: C) 112", "n_gen_tokens": 10, "latency_s": 0.6641167500056326, "probs": null, "error": null}
+{"id": "math_pt-b999beb3fb", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.3557988749962533, "probs": null, "error": null}
+{"id": "math_pt-2709d866c8", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.3492251249990659, "probs": null, "error": null}
+{"id": "math_pt-d2f73c4ee7", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3495921670109965, "probs": null, "error": null}
+{"id": "math_pt-c53ead454f", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.41510299999208655, "probs": null, "error": null}
+{"id": "math_pt-20384f99e0", "raw_output": "Resposta: D) $\\frac{92}{33215}$", "n_gen_tokens": 18, "latency_s": 0.7818713749875315, "probs": null, "error": null}
+{"id": "math_pt-12fac92360", "raw_output": "Resposta: D) 25%", "n_gen_tokens": 10, "latency_s": 0.8418582909944234, "probs": null, "error": null}
+{"id": "math_pt-9f848af828", "raw_output": "Resposta: B) Dividir por 4.", "n_gen_tokens": 13, "latency_s": 0.9539122919959482, "probs": null, "error": null}
+{"id": "math_pt-5bb032414b", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.7443234999955166, "probs": null, "error": null}
+{"id": "math_pt-5d95c0c404", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.5582097079895902, "probs": null, "error": null}
+{"id": "math_pt-b3860c076b", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.5357194169919239, "probs": null, "error": null}
+{"id": "math_pt-1b208edcd0", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.23125862499000505, "probs": null, "error": null}
+{"id": "math_pt-e749c96f4a", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.4130220419901889, "probs": null, "error": null}
+{"id": "math_pt-e78d8b0a9f", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.23257962499337737, "probs": null, "error": null}
+{"id": "math_pt-0e3793ebda", "raw_output": "Resposta: C) 1260", "n_gen_tokens": 11, "latency_s": 0.8525919999956386, "probs": null, "error": null}
+{"id": "math_pt-d19fc3c940", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.5439526660047704, "probs": null, "error": null}
+{"id": "math_pt-573fdbc097", "raw_output": "Resposta: D) \\frac{3^{n-1}}{5}", "n_gen_tokens": 18, "latency_s": 0.7168612909881631, "probs": null, "error": null}
+{"id": "math_pt-9faf938a74", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.3423532089946093, "probs": null, "error": null}
+{"id": "math_pt-9da1833af2", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.4748667499952717, "probs": null, "error": null}
+{"id": "math_pt-5b6c5897a6", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3799503750051372, "probs": null, "error": null}
+{"id": "math_pt-c2b164520a", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.4322520000132499, "probs": null, "error": null}
+{"id": "math_pt-17f42f7fe6", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.41594295800314285, "probs": null, "error": null}
+{"id": "math_pt-0771e2192d", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3413777499954449, "probs": null, "error": null}
+{"id": "math_pt-4e293df28a", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3509620830009226, "probs": null, "error": null}
+{"id": "math_pt-87b703f3bd", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3547237500024494, "probs": null, "error": null}
+{"id": "math_pt-a7ae2cb10e", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.3550945830065757, "probs": null, "error": null}
+{"id": "math_pt-94410027bb", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.2972455419949256, "probs": null, "error": null}
+{"id": "math_pt-61d6e43ddf", "raw_output": "Resposta: D) 7200", "n_gen_tokens": 11, "latency_s": 0.6131995410105446, "probs": null, "error": null}
+{"id": "math_pt-3664b19625", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.36403262500243727, "probs": null, "error": null}
+{"id": "math_pt-53236e5c9f", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.298310041995137, "probs": null, "error": null}
+{"id": "math_pt-9fa67b0638", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.4264965419861255, "probs": null, "error": null}
+{"id": "math_pt-09d2fb9799", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.3651860419922741, "probs": null, "error": null}
+{"id": "math_pt-14f2b128aa", "raw_output": "Resposta: B) 21 e 21", "n_gen_tokens": 13, "latency_s": 0.7251154999976279, "probs": null, "error": null}
+{"id": "math_pt-ecd2ff5de8", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.49505704100010917, "probs": null, "error": null}
+{"id": "math_pt-8541e1feea", "raw_output": "Resposta: C) 1/6", "n_gen_tokens": 10, "latency_s": 0.7277753749949625, "probs": null, "error": null}
+{"id": "math_pt-adc39e344d", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.48233220899419393, "probs": null, "error": null}
+{"id": "math_pt-64212633f3", "raw_output": "Resposta: D) 2039190", "n_gen_tokens": 14, "latency_s": 0.8397601250035223, "probs": null, "error": null}
+{"id": "math_pt-00a6688cc4", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4422314999974333, "probs": null, "error": null}
+{"id": "math_pt-d8eee27f30", "raw_output": "Resposta: D) 46", "n_gen_tokens": 9, "latency_s": 0.46419854200212285, "probs": null, "error": null}
+{"id": "math_pt-3c17b204df", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.49897258399869315, "probs": null, "error": null}
+{"id": "math_pt-4691fff886", "raw_output": "Resposta: E", "n_gen_tokens": 5, "latency_s": 0.4028143750037998, "probs": null, "error": null}
+{"id": "math_pt-005b2a2e23", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.35075737499573734, "probs": null, "error": null}
+{"id": "math_pt-3d1969a5ff", "raw_output": "Resposta: D", "n_gen_tokens": 5, "latency_s": 0.4146006670052884, "probs": null, "error": null}
+{"id": "math_pt-ef644d9caf", "raw_output": "Resposta: B", "n_gen_tokens": 5, "latency_s": 0.2970176249946235, "probs": null, "error": null}
+{"id": "math_pt-1dbb889e04", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.4180950839945581, "probs": null, "error": null}
+{"id": "math_pt-76911016c9", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.30180737499904353, "probs": null, "error": null}
+{"id": "math_pt-2a1e97b148", "raw_output": "Resposta: B) 100", "n_gen_tokens": 10, "latency_s": 0.9024985410069348, "probs": null, "error": null}
+{"id": "math_pt-015f0c1ec0", "raw_output": "Resposta: A", "n_gen_tokens": 5, "latency_s": 0.5507815409946488, "probs": null, "error": null}
+{"id": "math_pt-a9383b5628", "raw_output": "Resposta: C", "n_gen_tokens": 5, "latency_s": 0.30224604200338945, "probs": null, "error": null}
