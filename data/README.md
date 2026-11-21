@@ -1,6 +1,6 @@
 # Dados e curadoria
 
-O [catálogo](catalogo-fontes.csv) aponta as cinco fontes e revisões do LumiBench. O [manifesto do recorte](lumibench-v1.json) fixa os arquivos, os SHA-256 e as contagens por split. Obtenha os dados e o avaliador fixado com `python3 -m benchmark.baseline prepare`. Consulte o [guia de execução](../benchmark/ollama.md) para uso com checkout local e reprodução offline.
+O [catálogo](catalogo-fontes.csv) aponta as cinco fontes e revisões do LumiBench. O [manifesto do recorte](../benchmarks/lumibench/v1/dataset.json) fixa os arquivos, os SHA-256 e as contagens por split. Obtenha os dados e o avaliador fixado com `python3 -m benchmark prepare`. Consulte o [guia de execução](../benchmarks/lumibench/v1/README.md) para uso com checkout local e reprodução offline.
 
 | Dataset | Desenvolvimento | Teste | Total |
 |---|---:|---:|---:|

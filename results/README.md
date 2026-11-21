@@ -1,5 +1,7 @@
 # Resultados
 
+Consulte o [catálogo de benchmarks](../benchmarks/README.md) para os dados, o protocolo e os comandos de cada versão.
+
 | Experimento | Cobertura | Artefatos |
 |---|---|---|
 | LumiBench · Lumi-4B v0.2 e Qwen3-4B-Instruct-2507 no Ollama | `direct`, 313 itens em dev e 687 em teste por modelo | [Placar, manifestos e predições](lumibench-direct-ollama/) |

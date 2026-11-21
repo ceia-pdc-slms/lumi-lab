@@ -1,0 +1,14 @@
+{
+  "id": "upstream-direct-v1",
+  "evaluator": {
+    "repository": "https://github.com/henriqueelj/Lumi-Benchmark.git",
+    "commit": "27c93a1f70ee4a0ce577d3e6a64b819bbdd87d26"
+  },
+  "prompt_version": "v1",
+  "prompt_variant": "direct",
+  "adapter": "default",
+  "files": {
+    "conhecimento": ["oab_exams", "drbodebench_inep", "bluex", "math_pt"],
+    "decisao": ["bfcl_pt"]
+  }
+}

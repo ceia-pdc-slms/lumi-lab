@@ -4,7 +4,7 @@ A integração usa o recorte corrigido do LumiBench como referência de avaliaç
 
 | Origem no LumiBench | Destino no Lumi Lab |
 |---|---|
-| `data/benchmark/` e `entrega_semana1/build_manifest.json` | `data/lumibench-v1.json` fixa a revisão, os cinco arquivos canônicos, os hashes e as contagens. O importador instala o snapshot em `data/raw/`. |
+| `data/benchmark/` e `entrega_semana1/build_manifest.json` | `benchmarks/lumibench/v1/dataset.json` fixa a revisão, os cinco arquivos canônicos, os hashes e as contagens. O importador instala o snapshot em `data/raw/`. |
 | `lumi_bench/` e `schemas/` | `benchmark/` reúne prompts, parsing, pontuação e relatórios. `adapters/` concentra as interfaces de inferência e de saída dos modelos. |
 | Configs de execução e `runs/` | `configs/` oferece um perfil sem modelo e um para servidor local. `results/local/` guarda manifest, predições, pontuação e métricas por execução. |
 | Ingestão, auditoria e correções de seleção | As revisões dos artefatos upstream ficam referenciadas. A instalação do recorte usa os arquivos finais congelados. |

@@ -16,17 +16,17 @@ from urllib.request import Request, urlopen
 from . import data
 from .files import new_directory, write_json
 
-COMMIT = "27c93a1f70ee4a0ce577d3e6a64b819bbdd87d26"
-REPOSITORY = "https://github.com/henriqueelj/Lumi-Benchmark.git"
 SOURCE = data.ROOT / ".cache/lumi-benchmark"
-PROFILE = data.ROOT / "configs/lumibench-ollama.json"
-URL = "http://127.0.0.1:11434"
-CONTEXT = 8192
-GENERATION = {"max_new_tokens": 512, "temperature": 0, "seed": 42}
-FILES = {
-    "conhecimento": ("oab_exams", "drbodebench_inep", "bluex", "math_pt"),
-    "decisao": ("bfcl_pt",),
-}
+PROTOCOL = json.loads((data.CATALOG / "protocol.json").read_bytes())
+PROFILE = data.CATALOG / "profiles/ollama-direct"
+RUNTIME = json.loads((PROFILE / "runtime.json").read_bytes())
+COMMIT = PROTOCOL["evaluator"]["commit"]
+REPOSITORY = PROTOCOL["evaluator"]["repository"]
+URL = RUNTIME["base_url"]
+CONTEXT = RUNTIME["context_tokens"]
+REASONING = RUNTIME["reasoning_effort"]
+GENERATION = RUNTIME["generation"]
+FILES = PROTOCOL["files"]
 
 
 def fetch_json(endpoint, body=None, timeout=15):
@@ -76,7 +76,7 @@ class OllamaTransport:
         alias = model["alias"]
         entry = next((x for x in fetch_json("/api/tags")["models"] if x["name"] == alias), None)
         if entry is None or entry["digest"] != model["ollama_model_digest"]:
-            raise ValueError(f"Alias ou digest incorreto para {alias}. Consulte benchmark/ollama.md.")
+            raise ValueError(f"Alias ou digest incorreto para {alias}. Consulte benchmarks/lumibench/v1/.")
         template = fetch_json("/api/show", {"model": alias})["template"]
         if data.digest(template.encode()) != model["chat_template_sha256"]:
             raise ValueError(f"Chat template divergente: {alias}")
@@ -86,7 +86,7 @@ class OllamaTransport:
         started = perf_counter()
         response = fetch_json("/v1/chat/completions", {
             "model": self.model["alias"], "messages": messages, "max_tokens": max_new_tokens,
-            "temperature": temperature, "seed": seed, "reasoning_effort": "none",
+            "temperature": temperature, "seed": seed, "reasoning_effort": REASONING,
         }, timeout=600)
         latency = perf_counter() - started
         message = response["choices"][0]["message"]
@@ -105,7 +105,7 @@ class OllamaTransport:
     def info(self):
         return {
             "backend": "openai_compat", "base_url": URL + "/v1", "model": self.model["alias"],
-            "runtime": self.version, "context": CONTEXT, "reasoning_effort": "none",
+            "runtime": self.version, "context": CONTEXT, "reasoning_effort": REASONING,
             **self.loaded,
             **{key: self.model[key] for key in ("artifact", "weights_sha256",
                                                 "ollama_model_digest", "chat_template_sha256")},
@@ -118,7 +118,7 @@ def configure(split, model, limit):
     config = {
         "run_name": "evaluation", "backend": {"type": "openai_compat", "base_url": URL + "/v1",
                                               "model": model["alias"], "want_probs": False, "timeout": 600},
-        "split": split, "prompt_variant": "direct", "adapter": "default", **GENERATION,
+        "split": split, "prompt_variant": PROTOCOL["prompt_variant"], "adapter": PROTOCOL["adapter"], **GENERATION,
         "quantization": model["quantization"], "output_dir": "runs", "data": paths,
     }
     if limit is not None:
@@ -131,7 +131,7 @@ def configure(split, model, limit):
 def execute(source, directory, out, model_name, split, limit):
     runner = upstream(source, "run")
     bundle = data.load_snapshot(directory)
-    model = json.loads(PROFILE.read_bytes())[model_name]
+    model = json.loads((PROFILE / "models.json").read_bytes())[model_name]
     config = configure(split, model, limit)
     with new_directory(out) as stage, TemporaryDirectory() as temporary:
         root = Path(temporary)
@@ -157,7 +157,7 @@ def score_run(report, folder, bundle, split):
     manifest = json.loads((folder / "manifest.json").read_bytes())
     if (manifest["git_commit"], manifest["split"], manifest["prompt_version"],
             manifest["prompt_variant"], manifest["adapter"], manifest["generation"]) != (
-            COMMIT, split, "v1", "direct", "default", GENERATION
+            COMMIT, split, PROTOCOL["prompt_version"], PROTOCOL["prompt_variant"], PROTOCOL["adapter"], GENERATION
     ):
         raise ValueError(f"Protocolo diferente: {folder}")
     scored = {}
@@ -192,11 +192,11 @@ def compare(source, directory, split, lumi, qwen):
     bundle = data.load_snapshot(directory)
     runs = {"lumi": score_run(report, lumi, bundle, split), "qwen3": score_run(report, qwen, bundle, split)}
     result = {"split": split, "commit_avaliador": COMMIT, "modelos": {}, "trilhas": {}}
-    profiles = json.loads(PROFILE.read_bytes())
+    profiles = json.loads((PROFILE / "models.json").read_bytes())
     for name, (manifest, _) in runs.items():
         backend = manifest["backend"]
         profile = profiles[name]
-        required = {"model": profile["alias"], "context": CONTEXT, "reasoning_effort": "none"}
+        required = {"model": profile["alias"], "context": CONTEXT, "reasoning_effort": REASONING}
         for key in ("weights_sha256", "ollama_model_digest", "chat_template_sha256"):
             required[key] = profile[key]
         if any(backend.get(key) != value for key, value in required.items()):
@@ -227,32 +227,23 @@ def compare(source, directory, split, lumi, qwen):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source", type=Path, default=SOURCE)
-    parser.add_argument("--data-dir", type=Path, default=data.DEFAULT_DATA)
-    commands = parser.add_subparsers(dest="command", required=True)
-    commands.add_parser("prepare", help="obtém o avaliador fixado e importa os cinco datasets")
-    run = commands.add_parser("run", help="executa um modelo no Ollama")
-    run.add_argument("--model", choices=("lumi", "qwen3"), required=True)
-    run.add_argument("--out", type=Path, required=True)
-    run.add_argument("--limit", type=int, help="limite por trilha, em dev")
-    replay = commands.add_parser("compare", help="recalcula e compara duas execuções offline")
-    replay.add_argument("--lumi", type=Path, required=True)
-    replay.add_argument("--qwen3", type=Path, required=True)
-    for command in (run, replay):
-        command.add_argument("--split", choices=("dev", "test"), required=True)
-    args = parser.parse_args(argv)
-    try:
-        if args.command == "prepare":
-            prepare(args.source, args.data_dir)
-        elif args.command == "run":
-            execute(args.source, args.data_dir, args.out, args.model, args.split, args.limit)
-        else:
-            print(json.dumps(compare(args.source, args.data_dir, args.split, args.lumi, args.qwen3),
-                             ensure_ascii=False, indent=2, allow_nan=False))
-    except (ValueError, OSError, KeyError, subprocess.CalledProcessError) as exc:
-        parser.exit(2, f"Erro: {exc}\n")
+    """Mantém a invocação publicada antes do catálogo durante a transição."""
+    from .__main__ import main as public_main
+
+    parser = argparse.ArgumentParser(add_help=False)
+    parser.add_argument("--source")
+    parser.add_argument("--data-dir")
+    options, remaining = parser.parse_known_args(argv)
+    for name, value in (("--source", options.source), ("--data-dir", options.data_dir)):
+        if value is not None:
+            remaining.extend([name, value])
+    # A interface anterior exige o modelo; evita cair no avaliador integrado.
+    if remaining and remaining[0] == "run" and not any(
+        item == "--model" or item.startswith("--model=") for item in remaining
+    ) and not {"--help", "-h"}.intersection(remaining):
+        parser.error("run exige --model")
+    return public_main(remaining)
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

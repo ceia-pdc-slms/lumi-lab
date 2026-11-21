@@ -1,0 +1,10 @@
+{
+  "base_url": "http://127.0.0.1:11434",
+  "context_tokens": 8192,
+  "reasoning_effort": "none",
+  "generation": {
+    "max_new_tokens": 512,
+    "temperature": 0,
+    "seed": 42
+  }
+}
