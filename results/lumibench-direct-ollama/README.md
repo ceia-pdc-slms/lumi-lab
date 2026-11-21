@@ -1,6 +1,6 @@
 # LumiBench direct no Ollama
 
-Comparação local de 21/11/2026 entre **Lumi-4B v0.2** e **Qwen3-4B-Instruct-2507**. Rodamos os mesmos itens por split com o prompt `direct`, o extrator upstream e thinking desligado. O Lumi usou GGUF Q4_K_XL, identificado como Q4_K_M pelo Ollama, e o Qwen3 usou GGUF Q4_K_M. Ollama 0.40.16, Apple M3 Pro, contexto de 8.192 tokens. [Como reproduzir](../../benchmark/ollama.md)
+Comparação local de 21/11/2026 entre **Lumi-4B v0.2** e **Qwen3-4B-Instruct-2507**. Rodamos os mesmos itens por split com o prompt `direct`, o extrator upstream e thinking desligado. O Lumi usou GGUF Q4_K_XL, identificado como Q4_K_M pelo Ollama, e o Qwen3 usou GGUF Q4_K_M. Ollama 0.40.16, Apple M3 Pro, contexto de 8.192 tokens. [Como reproduzir](../../benchmarks/lumibench/v1/README.md)
 
 ## Acertos por base
 
@@ -33,4 +33,4 @@ Os tempos vêm de rodadas sequenciais no mesmo Mac. A rodada completa de teste l
 | Dev · 313 itens | [JSON](dev.json) | [Manifesto e predições](lumi-direct-dev/) | [Manifesto e predições](qwen3-4b-direct-dev/) |
 | Teste · 687 itens | [JSON](test.json) | [Manifesto e predições](lumi-direct-test/) | [Manifesto e predições](qwen3-4b-direct-test/) |
 
-As predições preservam o texto processado pelo adaptador upstream, a latência, os tokens e a falha por item. O manifesto original mantém o hash da configuração histórica. Os [perfis versionados](../../configs/lumibench-ollama.json) permitem recriar a configuração efetiva. O [guia de reprodução](../../benchmark/ollama.md#recalcular-os-resultados-registrados) mostra como recalcular os dois placares.
+As predições preservam o texto processado pelo adaptador upstream, a latência, os tokens e a falha por item. O manifesto original mantém o hash da configuração histórica. Os [perfis versionados](../../benchmarks/lumibench/v1/profiles/ollama-direct/models.json) permitem recriar a configuração efetiva. O [guia de reprodução](../../benchmarks/lumibench/v1/README.md#recalcular-os-resultados-registrados) mostra como recalcular os dois placares.

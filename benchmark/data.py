@@ -11,7 +11,9 @@ from .files import new_directory
 from .splits import find_duplicates, text_key
 
 ROOT = Path(__file__).resolve().parents[1]
-LOCK = ROOT / "data/lumibench-v1.json"
+BENCHMARK_ID = "lumibench/v1"
+CATALOG = ROOT / "benchmarks" / BENCHMARK_ID
+LOCK = CATALOG / "dataset.json"
 DEFAULT_DATA = ROOT / "data/raw/lumibench-v1"
 TRACKS = ("conhecimento", "decisao")
 

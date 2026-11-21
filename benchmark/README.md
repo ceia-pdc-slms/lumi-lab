@@ -2,7 +2,7 @@
 
 Use Python 3.10+ na raiz do Lumi Lab. O avaliador usa a biblioteca padrão. O modo de demonstração roda também no [notebook](../notebooks/lumibench.ipynb).
 
-Para reproduzir os placares registrados de Lumi e Qwen3 com a revisão upstream exata, siga o [guia do baseline no Ollama](ollama.md).
+Para reproduzir os placares registrados de Lumi e Qwen3 com a revisão upstream exata, siga o [guia do LumiBench v1](../benchmarks/lumibench/v1/README.md).
 
 ## Instalar e conferir o recorte
 
@@ -13,7 +13,7 @@ python3 -m benchmark import --source /caminho/para/Lumi-Benchmark-09fbaed9bfb3c8
 python3 -m benchmark validate
 ```
 
-## Executar e recalcular
+## Usar o avaliador integrado
 
 ```bash
 # Demonstração autocontida com quatro exemplos sintéticos

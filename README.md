@@ -2,14 +2,14 @@
 
 Repositório público das frentes de **dados e benchmark** e **adaptação e fine-tuning** do grupo de Lucca no CEIA/UFG. Desenvolvemos e comparamos o Lumi original, o Lumi Decision e o Lumi Reasoning com dados em português e execuções reproduzíveis.
 
-## LumiBench
+## Benchmarks
 
-O LumiBench reúne **1.000 itens versionados** em português. São 800 questões de conhecimento e 200 de decisão sobre ferramentas, com 313 itens em desenvolvimento e 687 em teste.
+O [catálogo de benchmarks](benchmarks/README.md) apresenta as versões publicadas. O LumiBench reúne **1.000 itens versionados** em português. São 800 questões de conhecimento e 200 de decisão sobre ferramentas, com 313 itens em desenvolvimento e 687 em teste.
 
 | Quero | Onde começar |
 |---|---|
-| Obter os dados e conferir os splits | [Dados e curadoria](data/README.md) |
-| Reproduzir Lumi e Qwen3 no Ollama | [Guia de execução do baseline](benchmark/ollama.md) |
+| Obter os dados e conferir os splits | [LumiBench v1](benchmarks/lumibench/v1/README.md#dados-protocolo-e-resultados) |
+| Reproduzir Lumi e Qwen3 no Ollama | [Guia de reprodução](benchmarks/lumibench/v1/README.md#executar-e-comparar) |
 | Conferir números e predições | [Resultados do LumiBench](results/README.md) |
 | Integrar modelos e variantes | [Guia do avaliador](benchmark/README.md) · [Contrato de avaliação](docs/contrato-avaliacao.md) |
 
@@ -42,6 +42,7 @@ Versões candidatas devem chegar à integração **até 24/11**, como meta opera
 
 | Local | Conteúdo |
 |---|---|
+| [`benchmarks/`](benchmarks/README.md) | Catálogo de dados, protocolos e perfis publicados |
 | [`benchmark/`](benchmark/README.md) | Carregamento, execução, pontuação e relatórios do benchmark |
 | [`adaptation/`](adaptation/README.md) | Protótipos de decisão e treinamento para reasoning |
 | [`adapters/`](adapters/README.md) | Integração das saídas dos modelos com o formato comum |
