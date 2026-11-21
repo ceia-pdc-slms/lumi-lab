@@ -1,0 +1,109 @@
+{
+  "split": "test",
+  "commit_avaliador": "27c93a1f70ee4a0ce577d3e6a64b819bbdd87d26",
+  "modelos": {
+    "lumi": {
+      "backend": {
+        "backend": "openai_compat",
+        "base_url": "http://127.0.0.1:11434/v1",
+        "model": "lumi:0.2-benchmark",
+        "runtime": "0.40.16",
+        "context": 8192,
+        "reasoning_effort": "none",
+        "weights_sha256": "704dc11770c3a5b0bdd913abbd37cf9821e1b6328d355e1f3021b9f248c32b1a",
+        "artifact": "hf.co/Mateus-Nery/lumi-4b-GGUF:Q4_K_XL",
+        "ollama_model_digest": "8a9acc34df3a9828e6540ab212a9bdd56186728fa2d6fb4767ab2e5cc48e9c50",
+        "chat_template_sha256": "c1d545bca1bb662ecc024f0531c62591f9ebcc424c606a65822b299bf15c1643"
+      },
+      "quantizacao": "GGUF Q4_K_XL (Q4_K_M metadata, Ollama)",
+      "duracao_s": 1144.6213359832764
+    },
+    "qwen3": {
+      "backend": {
+        "backend": "openai_compat",
+        "base_url": "http://127.0.0.1:11434/v1",
+        "model": "qwen3:4b-instruct-benchmark",
+        "runtime": "0.40.16",
+        "context": 8192,
+        "reasoning_effort": "none",
+        "weights_sha256": "85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9",
+        "artifact": "qwen3:4b-instruct-2507-q4_K_M",
+        "ollama_model_digest": "814d45e79cc776294ae4fafa9a7acd47cbe3e614d20b80ee83e4096fdf9e1782",
+        "chat_template_sha256": "40c21f34cf67d8c760ef72f8ad3ae5afad514299d4b06e91dd9a8d705af7b541"
+      },
+      "quantizacao": "GGUF Q4_K_M (Ollama)",
+      "duracao_s": 747.8212840557098
+    }
+  },
+  "trilhas": {
+    "conhecimento": {
+      "por_base": {
+        "bluex": {
+          "n": 135,
+          "lumi": 95,
+          "qwen3": 95
+        },
+        "drbodebench_inep": {
+          "n": 136,
+          "lumi": 75,
+          "qwen3": 75
+        },
+        "math_pt": {
+          "n": 140,
+          "lumi": 38,
+          "qwen3": 34
+        },
+        "oab_exams": {
+          "n": 136,
+          "lumi": 66,
+          "qwen3": 62
+        }
+      },
+      "modelos": {
+        "lumi": {
+          "n": 547,
+          "acertos": 274,
+          "falhas": 0,
+          "n_medicoes": 547,
+          "mediana_s": 1.1335998750000726,
+          "p95_s": 2.3585612999959267
+        },
+        "qwen3": {
+          "n": 547,
+          "acertos": 266,
+          "falhas": 0,
+          "n_medicoes": 547,
+          "mediana_s": 0.7259776669961866,
+          "p95_s": 1.3695731664047344
+        }
+      }
+    },
+    "decisao": {
+      "por_base": {
+        "bfcl_pt": {
+          "n": 140,
+          "lumi": 99,
+          "qwen3": 113
+        }
+      },
+      "modelos": {
+        "lumi": {
+          "n": 140,
+          "acertos": 99,
+          "falhas": 0,
+          "n_medicoes": 140,
+          "mediana_s": 2.837714875000529,
+          "p95_s": 6.533093280642061
+        },
+        "qwen3": {
+          "n": 140,
+          "acertos": 113,
+          "falhas": 0,
+          "n_medicoes": 140,
+          "mediana_s": 1.9158003125048708,
+          "p95_s": 5.464000245860371
+        }
+      }
+    }
+  }
+}

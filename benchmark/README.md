@@ -2,6 +2,8 @@
 
 Use Python 3.10+ na raiz do Lumi Lab. O avaliador usa a biblioteca padrão. O modo de demonstração roda também no [notebook](../notebooks/lumibench.ipynb).
 
+Para reproduzir os placares registrados de Lumi e Qwen3 com a revisão upstream exata, siga o [guia do baseline no Ollama](ollama.md).
+
 ## Instalar e conferir o recorte
 
 Baixe o ZIP da [revisão fixada do LumiBench](https://github.com/henriqueelj/Lumi-Benchmark/tree/09fbaed9bfb3c82e3e3d47a70051dbaddaa73c1f) com a sua conta do projeto ou use um checkout dessa revisão. A importação usa os cinco JSONL canônicos, confere os hashes e verifica IDs, gabaritos, contagens, grupos, sobreposição de texto entre splits e nomes de ferramentas. O recorte fica em `data/raw/lumibench-v1/`; todos os comandos aceitam `--data-dir` para escolher outro local.

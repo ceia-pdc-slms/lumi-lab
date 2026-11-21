@@ -1,0 +1,67 @@
+{
+  "lumi_bench_version": "0.1.0",
+  "run_name": "lumi-direct-test",
+  "split": "test",
+  "prompt_version": "v1",
+  "prompt_variant": "direct",
+  "adapter": "default",
+  "generation": {
+    "max_new_tokens": 512,
+    "temperature": 0.0,
+    "seed": 42
+  },
+  "backend": {
+    "backend": "openai_compat",
+    "base_url": "http://127.0.0.1:11434/v1",
+    "model": "lumi:0.2-benchmark",
+    "runtime": "0.40.16",
+    "context": 8192,
+    "reasoning_effort": "none",
+    "weights_sha256": "704dc11770c3a5b0bdd913abbd37cf9821e1b6328d355e1f3021b9f248c32b1a",
+    "artifact": "hf.co/Mateus-Nery/lumi-4b-GGUF:Q4_K_XL",
+    "ollama_model_digest": "8a9acc34df3a9828e6540ab212a9bdd56186728fa2d6fb4767ab2e5cc48e9c50",
+    "chat_template_sha256": "c1d545bca1bb662ecc024f0531c62591f9ebcc424c606a65822b299bf15c1643"
+  },
+  "config_sha256": "ffe28d2e8cfc6134e6408845cedf1a9464f270fa5376618aa23ba50e51190754",
+  "data": {
+    "conhecimento": [
+      {
+        "path": "data/benchmark/oab_exams.jsonl",
+        "sha256": "fcd5827a852dca3ad48d54c56b27e1eb136fb5110cb3ba1a9ca423a3a0e533cc"
+      },
+      {
+        "path": "data/benchmark/drbodebench_inep.jsonl",
+        "sha256": "2651a4f57921baa7a1cec1c6efe32422a1ba83f1de435815a0b087e3678b24dc"
+      },
+      {
+        "path": "data/benchmark/bluex.jsonl",
+        "sha256": "3d0458500817086365cace990a5ddf37c0713f705ac9cc6d5b6c7f16c121ac14"
+      },
+      {
+        "path": "data/benchmark/math_pt.jsonl",
+        "sha256": "ec4e95de4e684a723dd96e1d134563beaf76a4e5dec01c525271db87a0b89562"
+      }
+    ],
+    "decisao": [
+      {
+        "path": "data/benchmark/bfcl_pt.jsonl",
+        "sha256": "791a71a5dac282f38f9fa741a42148f5273cbe884803abdb3f1da54c7d7b10f5"
+      }
+    ]
+  },
+  "hardware": {
+    "python": "3.14.5",
+    "platform": "Darwin-25.0.0-arm64-arm-64bit-Mach-O",
+    "cpu_count": 11,
+    "gpu": null,
+    "peak_rss_mb_at_start": 36240.0
+  },
+  "quantization": "GGUF Q4_K_XL (Q4_K_M metadata, Ollama)",
+  "git_commit": "27c93a1f70ee4a0ce577d3e6a64b819bbdd87d26",
+  "started_at": 1795282429.32104,
+  "finished_at": 1795283573.942376,
+  "n_examples": {
+    "conhecimento": 547,
+    "decisao": 140
+  }
+}

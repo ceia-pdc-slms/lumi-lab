@@ -2,7 +2,16 @@
 
 Repositório público das frentes de **dados e benchmark** e **adaptação e fine-tuning** do grupo de Lucca no CEIA/UFG. Desenvolvemos e comparamos o Lumi original, o Lumi Decision e o Lumi Reasoning com dados em português e execuções reproduzíveis.
 
-O [guia do benchmark](benchmark/README.md) mostra como validar o recorte do LumiBench, executar as duas trilhas e recalcular as métricas. O [mapa de integração](docs/integracao-lumibench.md) registra a origem dos dados e as decisões pendentes.
+## LumiBench
+
+O LumiBench reúne **1.000 itens versionados** em português. São 800 questões de conhecimento e 200 de decisão sobre ferramentas, com 313 itens em desenvolvimento e 687 em teste.
+
+| Quero | Onde começar |
+|---|---|
+| Obter os dados e conferir os splits | [Dados e curadoria](data/README.md) |
+| Reproduzir Lumi e Qwen3 no Ollama | [Guia de execução do baseline](benchmark/ollama.md) |
+| Conferir números e predições | [Resultados do LumiBench](results/README.md) |
+| Integrar modelos e variantes | [Guia do avaliador](benchmark/README.md) · [Contrato de avaliação](docs/contrato-avaliacao.md) |
 
 ## Comece aqui
 
